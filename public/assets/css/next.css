@@ -127,4 +127,38 @@ button.nav-link, button.chat-btn { background: transparent; border: 0; }
 
 .discount-note { margin: .25rem 0 0; text-align: center; font-size: .95rem; }
 .discount-note del { opacity: .7; }
-.discount-badge { display: inline-block; padding: .1rem .5rem; border-radius: 999px; background: #ffc300; color: #001d3d; font-weight: 700; font-size: .8rem; }
+.discount-badge { display: inline-block; padding: .1rem .5rem; border-radius: 999px; background: #ff7518; color: #1a0a2e; font-weight: 700; font-size: .8rem; }
+
+/* Halloween offer */
+.section--halloween { background: radial-gradient(circle at 20% 0%, #4b1d7a 0%, #1a0a2e 60%); color: #fff; padding: 80px 0; text-align: center; }
+.section--halloween .hw-intro { max-width: 820px; margin: 0 auto 32px; }
+.hw-kicker { color: #ff7518; font-weight: 700; letter-spacing: .12em; margin-bottom: 12px; }
+.section--halloween h2 { color: #fff; font-size: clamp(28px, 5vw, 46px); line-height: 1.15; margin-bottom: 16px; }
+.hw-sub { font-size: 1.15rem; opacity: .92; }
+.hw-deals { display: flex; justify-content: center; align-items: center; gap: 20px; flex-wrap: wrap; margin: 28px 0 8px; }
+.hw-deal { background: #ff7518; color: #1a0a2e; border-radius: 16px; padding: 18px 32px; min-width: 240px; box-shadow: 0 8px 28px rgba(255, 117, 24, .35); }
+.hw-deal strong { display: block; font-size: 2.4rem; line-height: 1.1; }
+.hw-deal span { font-weight: 600; }
+.hw-plus { font-size: 1.2rem; text-transform: uppercase; opacity: .8; }
+.hw-small { opacity: .8; margin-bottom: 24px; }
+.hw-countdown { display: flex; justify-content: center; gap: 12px; margin: 0 auto 36px; }
+.hw-unit { background: rgba(255, 255, 255, .1); border: 1px solid rgba(255, 117, 24, .6); border-radius: 12px; padding: 10px 14px; min-width: 76px; }
+.hw-unit strong { display: block; font-size: 1.9rem; color: #ff7518; font-variant-numeric: tabular-nums; }
+.hw-unit span { font-size: .75rem; text-transform: uppercase; letter-spacing: .08em; }
+.hw-ended { font-weight: 700; color: #ff7518; margin-bottom: 36px; }
+.hw-stack, .hw-guarantee { max-width: 820px; margin: 0 auto 28px; text-align: left; background: rgba(255, 255, 255, .06); border-radius: 16px; padding: 24px 28px; }
+.hw-stack h3, .hw-guarantee h3 { color: #ff7518; font-size: 1.3rem; margin-bottom: 14px; }
+.hw-stack ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; }
+.hw-stack li strong { display: block; }
+.hw-stack li strong::before { content: "✓ "; color: #ff7518; }
+.hw-stack li span { opacity: .85; }
+.hw-guarantee { border: 2px dashed #ff7518; }
+.hw-guarantee p { margin: 0; }
+.hw-actions { display: flex; justify-content: center; gap: 14px; flex-wrap: wrap; margin: 28px 0 18px; }
+.hw-cta { background: #ff7518; color: #1a0a2e; border: 2px solid #ff7518; }
+.hw-cta--ghost { background: transparent; color: #fff; }
+.hw-ps { max-width: 700px; margin: 0 auto; font-size: .95rem; opacity: .85; }
+.section--halloween a:focus-visible, .section--halloween button:focus-visible { outline: 3px solid #fff; outline-offset: 3px; }
+.section--packages .package-card { border-top: 4px solid #ff7518; }
+@media (max-width: 575px) { .hw-unit { min-width: 64px; padding: 8px; } .hw-unit strong { font-size: 1.5rem; } .hw-deal { min-width: 100%; } }
+.discount-badge { white-space: nowrap; }

@@ -7,7 +7,7 @@ import { ContactButton, ChatButton, LightboxLink } from '@/components/SiteProvid
 export default function SectionPackages() {
   return (
     <Tabs initial={"logo-design"}>
-    <section className={"section section--packages"} data-color={"4"}>
+    <section className={"section section--packages"} id={"pricing-packages"} data-color={"4"}>
       <div className={"container"}>
         <div className={"section-intro"}>
           <h4>
