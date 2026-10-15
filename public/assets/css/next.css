@@ -124,3 +124,7 @@ button.nav-link, button.chat-btn { background: transparent; border: 0; }
 
 /* Keep intrinsic width/height attributes (CLS) without distorting images */
 :where(img) { height: auto; }
+
+.discount-note { margin: .25rem 0 0; text-align: center; font-size: .95rem; }
+.discount-note del { opacity: .7; }
+.discount-badge { display: inline-block; padding: .1rem .5rem; border-radius: 999px; background: #ffc300; color: #001d3d; font-weight: 700; font-size: .8rem; }

@@ -17,7 +17,7 @@ export default function SectionPackages() {
             {"Get Inspired with Designs That Won't Break the Bank"}
           </h2>
           <p>
-            {"We give important help to brands similar to yours. Here are some options that will work for you."}
+            {"We give important help to brands similar to yours. Here are some options that will work for you. Enjoy 20% off every package, applied automatically."}
           </p>
         </div>
         <nav className={"nav nav-pills nav-fill packages-tabs"} role={"tablist"}>
@@ -51,8 +51,9 @@ export default function SectionPackages() {
                   <div className={"intro"}>
                     <div className={"prices"}>
                       <h2 style={{"fontSize": "2.5rem"}}>
-                        {"$29"}
+                        {"$23.20"}
                       </h2>
+                      <p className={"discount-note"}><del>{"$29"}</del>{" "}<span className={"discount-badge"}>{"20% OFF"}</span></p>
                     </div>
                     <div className={"name"}>
                       <h4>
@@ -105,7 +106,9 @@ export default function SectionPackages() {
                   </div>
                   <div>
                     <form action={"https://www.americanlogoartist.com/order/order-now.php"} method={"POST"}>
-                      <input type={"hidden"} name={"price"} value={"29"} />
+                      <input type={"hidden"} name={"price"} value={"23.20"} />
+                      <input type={"hidden"} name={"original_price"} value={"29"} />
+                      <input type={"hidden"} name={"discount"} value={"20%"} />
                       <input type={"hidden"} name={"name"} value={"Logo Basic"} />
                       <input type={"hidden"} name={"services"} value={"4 Original Logo Concepts,2 Dedicated Logo Designer,4 Revisions,With Grey Scale Format,Free Icon Design,Formats JPEG Only,24-48 Business Hours Turn Around Time,100% Satisfaction,100% Ownership Rights,Money Back Guarantee,Dedicated Account Manager"} />
                       <button type={"submit"} className={"theme-btn order"}>
@@ -120,8 +123,9 @@ export default function SectionPackages() {
                   <div className={"intro"}>
                     <div className={"prices"}>
                       <h2 style={{"fontSize": "2.5rem"}}>
-                        {"$89"}
+                        {"$71.20"}
                       </h2>
+                      <p className={"discount-note"}><del>{"$89"}</del>{" "}<span className={"discount-badge"}>{"20% OFF"}</span></p>
                     </div>
                     <div className={"name"}>
                       <h4>
@@ -168,7 +172,9 @@ export default function SectionPackages() {
                   </div>
                   <div>
                     <form action={"https://www.americanlogoartist.com/order/order-now.php"} method={"POST"}>
-                      <input type={"hidden"} name={"price"} value={"89"} />
+                      <input type={"hidden"} name={"price"} value={"71.20"} />
+                      <input type={"hidden"} name={"original_price"} value={"89"} />
+                      <input type={"hidden"} name={"discount"} value={"20%"} />
                       <input type={"hidden"} name={"name"} value={"Logo Silver"} />
                       <input type={"hidden"} name={"services"} value={"6 Custom Logo Design Concepts,By 2 Designers,Unlimited Revisions,48 to 72 hours TAT,All Final Files Format (AI PSD EPS PNG GIF JPG PDF),100% Satisfaction Guarantee,100% Unique Design Guarantee,100% Ownership Rights,Money Back Guarantee"} />
                       <button type={"submit"} className={"theme-btn order"}>
@@ -183,8 +189,9 @@ export default function SectionPackages() {
                   <div className={"intro"}>
                     <div className={"prices"}>
                       <h2 style={{"fontSize": "2.5rem"}}>
-                        {"$129"}
+                        {"$103.20"}
                       </h2>
+                      <p className={"discount-note"}><del>{"$129"}</del>{" "}<span className={"discount-badge"}>{"20% OFF"}</span></p>
                     </div>
                     <div className={"name"}>
                       <h4>
@@ -234,7 +241,9 @@ export default function SectionPackages() {
                   </div>
                   <div>
                     <form action={"https://www.americanlogoartist.com/order/order-now.php"} method={"POST"}>
-                      <input type={"hidden"} name={"price"} value={"129"} />
+                      <input type={"hidden"} name={"price"} value={"103.20"} />
+                      <input type={"hidden"} name={"original_price"} value={"129"} />
+                      <input type={"hidden"} name={"discount"} value={"20%"} />
                       <input type={"hidden"} name={"name"} value={"Logo Gold"} />
                       <input type={"hidden"} name={"services"} value={"12 Logo Design Concepts,By 4 Designers,UNLIMITED Revisions,Stationary Design (Business Card Letterhead Envelope),FREE MS Word Letterhead,48 to 72 hours TAT,All Final Files Format (AI PSD EPS PNG GIF JPG PDF),100% Satisfaction Guarantee,100% Unique Design Guarantee,100% Ownership Rights,100% Money Back Guarantee"} />
                       <button type={"submit"} className={"theme-btn order"}>
@@ -249,8 +258,9 @@ export default function SectionPackages() {
                   <div className={"intro"}>
                     <div className={"prices"}>
                       <h2 style={{"fontSize": "2.5rem"}}>
-                        {"$179"}
+                        {"$143.20"}
                       </h2>
+                      <p className={"discount-note"}><del>{"$179"}</del>{" "}<span className={"discount-badge"}>{"20% OFF"}</span></p>
                     </div>
                     <div className={"name"}>
                       <h4>
@@ -306,7 +316,9 @@ export default function SectionPackages() {
                   </div>
                   <div>
                     <form action={"https://www.americanlogoartist.com/order/order-now.php"} method={"POST"}>
-                      <input type={"hidden"} name={"price"} value={"179"} />
+                      <input type={"hidden"} name={"price"} value={"143.20"} />
+                      <input type={"hidden"} name={"original_price"} value={"179"} />
+                      <input type={"hidden"} name={"discount"} value={"20%"} />
                       <input type={"hidden"} name={"name"} value={"Logo Platinum"} />
                       <input type={"hidden"} name={"services"} value={"UNLIMITED Logo Design Concepts, By 5 Award Winning Designers, Stationary Design (Business Card Letterhead Envelope), FREE Social Media Banners (Any 2), UNLIMITED Revisions, FREE MS Word Letterhead, Free Email Signature, All Final Files Format (AI PSD EPS PNG GIF JPG PDF), 100% Satisfaction Guarantee, 100% Unique Design Guarantee, 100% Ownership Rights, 100% Money Back Guarantee, 48 to 72 hours TAT"} />
                       <button type={"submit"} className={"theme-btn order"}>
@@ -321,8 +333,9 @@ export default function SectionPackages() {
                   <div className={"intro"}>
                     <div className={"prices"}>
                       <h2 style={{"fontSize": "2.5rem"}}>
-                        {"$299"}
+                        {"$239.20"}
                       </h2>
+                      <p className={"discount-note"}><del>{"$299"}</del>{" "}<span className={"discount-badge"}>{"20% OFF"}</span></p>
                     </div>
                     <div className={"name"}>
                       <h4>
@@ -378,7 +391,9 @@ export default function SectionPackages() {
                   </div>
                   <div>
                     <form action={"https://www.americanlogoartist.com/order/order-now.php"} method={"POST"}>
-                      <input type={"hidden"} name={"price"} value={"299"} />
+                      <input type={"hidden"} name={"price"} value={"239.20"} />
+                      <input type={"hidden"} name={"original_price"} value={"299"} />
+                      <input type={"hidden"} name={"discount"} value={"20%"} />
                       <input type={"hidden"} name={"name"} value={"Logo Elite Package"} />
                       <input type={"hidden"} name={"services"} value={"You will get unlimited concepts by 10 designers, Unlimited Rounds of Changes, 100% ownership rights, Turn Around time will be 24-48 hours, Icon design (Free), You will get all the formats in HI-RES, You will be getting vector file, The Editable Vector Version (resizable), You will be getting the Greyscale file (to be placed at any colored background), You will be getting the Solid Black and Solid White version of the Logo (can be used for T-Shirts and Merchandise), You will be getting the Colored Version with transparent background (can be used for stationery merchandise car wraps sign boards labelling ETC), You will be getting stationery designs (Business Cards Letterheads Envelops), Formats: JPEG PSD EPS AI PNG TIFF SVG"} />
                       <button type={"submit"} className={"theme-btn order"}>
@@ -393,8 +408,9 @@ export default function SectionPackages() {
                   <div className={"intro"}>
                     <div className={"prices"}>
                       <h2 style={{"fontSize": "2.5rem"}}>
-                        {"$599"}
+                        {"$479.20"}
                       </h2>
+                      <p className={"discount-note"}><del>{"$599"}</del>{" "}<span className={"discount-badge"}>{"20% OFF"}</span></p>
                     </div>
                     <div className={"name"}>
                       <h4>
@@ -456,7 +472,9 @@ export default function SectionPackages() {
                   </div>
                   <div>
                     <form action={"https://www.americanlogoartist.com/order/order-now.php"} method={"POST"}>
-                      <input type={"hidden"} name={"price"} value={"599"} />
+                      <input type={"hidden"} name={"price"} value={"479.20"} />
+                      <input type={"hidden"} name={"original_price"} value={"599"} />
+                      <input type={"hidden"} name={"discount"} value={"20%"} />
                       <input type={"hidden"} name={"name"} value={"The Boss"} />
                       <input type={"hidden"} name={"services"} value={"3D/Mascot/Animated Logo, Unlimited Original Logo Concepts, 8 Dedicated Logo Designers (Industry-specific), Unlimited Rounds Of Revisions, Stationery Design (Business Card Letterhead Envelope), 500 Business Cards, Email Signature Design, Free Icon Design, Grey Scale Format Attached JPEG PSD EPS AI PNG TIFF SVG Formats, Turnaround Time Of 24-48 Hours, 100% Satisfaction Guaranteed, 100% Ownership Rights, Money Back Guarantee, Dedicated Account Manager"} />
                       <button type={"submit"} className={"theme-btn order"}>
@@ -475,8 +493,9 @@ export default function SectionPackages() {
                   <div className={"intro"}>
                     <div className={"prices"}>
                       <h2 style={{"fontSize": "2.5rem"}}>
-                        {"$399"}
+                        {"$319.20"}
                       </h2>
+                      <p className={"discount-note"}><del>{"$399"}</del>{" "}<span className={"discount-badge"}>{"20% OFF"}</span></p>
                       <h4 className={"text-center"}>
                         <span style={{"fontSize": "16px"}}>
                         </span>
@@ -558,7 +577,9 @@ export default function SectionPackages() {
                   </div>
                   <div>
                     <form action={"https://www.americanlogoartist.com/order/order-now.php"} method={"POST"}>
-                      <input type={"hidden"} name={"price"} value={"399"} />
+                      <input type={"hidden"} name={"price"} value={"319.20"} />
+                      <input type={"hidden"} name={"original_price"} value={"399"} />
+                      <input type={"hidden"} name={"discount"} value={"20%"} />
                       <input type={"hidden"} name={"name"} value={"Basic Website"} />
                       <input type={"hidden"} name={"services"} value={"3 Page Website, Custom Layout Design, Contact/Query Form, 1 Banner Design, 2 Stock Photos, FREE Favicon Design, Cross Browser Compatible, Complete W3C Certified HTML, Website Initial Concepts in 48 Hours, Complete Design & Deployment, Complete Source Files, Dedicated Project Manager, 100% Ownership Rights, 100% Satisfaction Guarantee, 100% Money Back Guarantee, Value Added Services, Mobile Responsive will be Additional $200*, CMS will be Additional $250*, *NO MONTHLY OR ANY HIDDEN FEE*"} />
                       <button type={"submit"} className={"theme-btn order"}>
@@ -573,8 +594,9 @@ export default function SectionPackages() {
                   <div className={"intro"}>
                     <div className={"prices"}>
                       <h2 style={{"fontSize": "2.5rem"}}>
-                        {"$899"}
+                        {"$719.20"}
                       </h2>
+                      <p className={"discount-note"}><del>{"$899"}</del>{" "}<span className={"discount-badge"}>{"20% OFF"}</span></p>
                       <h4 className={"text-center"}>
                         <span style={{"fontSize": "16px"}}>
                         </span>
@@ -659,7 +681,9 @@ export default function SectionPackages() {
                   </div>
                   <div>
                     <form action={"https://www.americanlogoartist.com/order/order-now.php"} method={"POST"}>
-                      <input type={"hidden"} name={"price"} value={"899"} />
+                      <input type={"hidden"} name={"price"} value={"719.20"} />
+                      <input type={"hidden"} name={"original_price"} value={"899"} />
+                      <input type={"hidden"} name={"discount"} value={"20%"} />
                       <input type={"hidden"} name={"name"} value={"Startup Website"} />
                       <input type={"hidden"} name={"services"} value={"5 Page Website, Custom Layout Design, Contact/Query Form, 3 Banner Designs, 5 Stock Photos, FREE Favicon Design, FREE Google Friendly Sitemap, Unlimited Revisions, Complete W3C Certified HTML, Website Initial Concepts in 48 Hours, Complete Design & Deployment, Complete Source Files, Dedicated Project Manager, 100% Ownership Rights, 100% Satisfaction Guarantee, 100% Money Back Guarantee, Value Added Services, Mobile Responsive will be Additional $200*, CMS will be Additional $250*, *NO MONTHLY OR ANY HIDDEN FEE*"} />
                       <button type={"submit"} className={"theme-btn order"}>
@@ -674,8 +698,9 @@ export default function SectionPackages() {
                   <div className={"intro"}>
                     <div className={"prices"}>
                       <h2 style={{"fontSize": "2.5rem"}}>
-                        {"$1499"}
+                        {"$1199.20"}
                       </h2>
+                      <p className={"discount-note"}><del>{"$1499"}</del>{" "}<span className={"discount-badge"}>{"20% OFF"}</span></p>
                       <h4 className={"text-center"}>
                         <span style={{"fontSize": "16px"}}>
                         </span>
@@ -766,7 +791,9 @@ export default function SectionPackages() {
                   </div>
                   <div>
                     <form action={"https://www.americanlogoartist.com/order/order-now.php"} method={"POST"}>
-                      <input type={"hidden"} name={"price"} value={"1499"} />
+                      <input type={"hidden"} name={"price"} value={"1199.20"} />
+                      <input type={"hidden"} name={"original_price"} value={"1499"} />
+                      <input type={"hidden"} name={"discount"} value={"20%"} />
                       <input type={"hidden"} name={"name"} value={"Professional Website"} />
                       <input type={"hidden"} name={"services"} value={"Up to 10 Unique Pages Website, CMS /Admin Panel Integration, 5+ Stock Photos & Banner Designs, FREE Social Media Integration, FREE Favicon Design, FREE Google Friendly Sitemap, Unlimited Revisions, Cross Browser Compatible, Complete W3C Certified HTML, Website Initial Concepts in 48 Hours, Complete Design & Deployment, Custom Interactive & Dynamic Web Design, Industry specified Team of Expert Designers and Developers, Complete Source Files, Dedicated Project Manager, 100% Ownership Rights, 100% Satisfaction Guarantee, 100% Money Back Guarantee, Value Added Services, Mobile Responsive will be Additional $200*, CMS will be Additional $250*, *NO MONTHLY OR ANY HIDDEN FEE*"} />
                       <button type={"submit"} className={"theme-btn order"}>
@@ -781,8 +808,9 @@ export default function SectionPackages() {
                   <div className={"intro"}>
                     <div className={"prices"}>
                       <h2 style={{"fontSize": "2.5rem"}}>
-                        {"$2999"}
+                        {"$2399.20"}
                       </h2>
+                      <p className={"discount-note"}><del>{"$2999"}</del>{" "}<span className={"discount-badge"}>{"20% OFF"}</span></p>
                       <h4 className={"text-center"}>
                         <span style={{"fontSize": "16px"}}>
                         </span>
@@ -877,7 +905,9 @@ export default function SectionPackages() {
                   </div>
                   <div>
                     <form action={"https://www.americanlogoartist.com/order/order-now.php"} method={"POST"}>
-                      <input type={"hidden"} name={"price"} value={"2999"} />
+                      <input type={"hidden"} name={"price"} value={"2399.20"} />
+                      <input type={"hidden"} name={"original_price"} value={"2999"} />
+                      <input type={"hidden"} name={"discount"} value={"20%"} />
                       <input type={"hidden"} name={"name"} value={"E-Commerce Website"} />
                       <input type={"hidden"} name={"services"} value={"Custom Ecommerce Website, Up to 200 Products, CMS /Admin Panel Integration, Fully Mobile Responsive, Shopping Cart Integration, Payment Gateway Integration, Product Listing & Management, Order Management & Tracking, Banner Designs, Unlimited Revisions, FREE Social Media Integration, FREE Favicon Design, FREE Google Friendly Sitemap Search Engine Submission, Complete W3C Certified HTML, Industry specified Team of Expert Designers and Developers, Complete Deployment, Complete Source Files, Dedicated Project Manager, 100% Ownership Rights, 100% Satisfaction Guarantee, 100% Money Back Guarantee, *NO MONTHLY OR ANY HIDDEN FEE*"} />
                       <button type={"submit"} className={"theme-btn order"}>
@@ -892,8 +922,9 @@ export default function SectionPackages() {
                   <div className={"intro"}>
                     <div className={"prices"}>
                       <h2 style={{"fontSize": "2.5rem"}}>
-                        {"$3999"}
+                        {"$3199.20"}
                       </h2>
+                      <p className={"discount-note"}><del>{"$3999"}</del>{" "}<span className={"discount-badge"}>{"20% OFF"}</span></p>
                       <h4 className={"text-center"}>
                         <span style={{"fontSize": "16px"}}>
                         </span>
@@ -994,7 +1025,9 @@ export default function SectionPackages() {
                   </div>
                   <div>
                     <form action={"https://www.americanlogoartist.com/order/order-now.php"} method={"POST"}>
-                      <input type={"hidden"} name={"price"} value={"3999"} />
+                      <input type={"hidden"} name={"price"} value={"3199.20"} />
+                      <input type={"hidden"} name={"original_price"} value={"3999"} />
+                      <input type={"hidden"} name={"discount"} value={"20%"} />
                       <input type={"hidden"} name={"name"} value={"Corporate Website"} />
                       <input type={"hidden"} name={"services"} value={"Up to 15 Unique Pages Website, Custom Made, Interactive & Dynamic Design, Customized WordPress or PHP Development, Fully Mobile Responsive, Interactive Sliding Banners, Up to 10 Custom Made Banner Designs, 10 Stock Images, Unlimited Revisions, Content Management System, Online Signup Area (For Newsletters, Offers etc.), Search Bar, Live Feeds of Social Networks integration (Optional), Google Friendly Sitemap, Search Engine Submission, Cross Browser Compatible, Complete W3C Certified HTML, Industry specified Team of Expert Designers and Developers, Complete Deployment, Complete Source Files, Dedicated Project Manager, 100% Ownership Rights, 100% Satisfaction Guarantee, 100% Money Back Guarantee, *NO MONTHLY OR ANY HIDDEN FEE*"} />
                       <button type={"submit"} className={"theme-btn order"}>
@@ -1009,8 +1042,9 @@ export default function SectionPackages() {
                   <div className={"intro"}>
                     <div className={"prices"}>
                       <h2 style={{"fontSize": "2.5rem"}}>
-                        {"$6999"}
+                        {"$5599.20"}
                       </h2>
+                      <p className={"discount-note"}><del>{"$6999"}</del>{" "}<span className={"discount-badge"}>{"20% OFF"}</span></p>
                       <h4 className={"text-center"}>
                         <span style={{"fontSize": "16px"}}>
                         </span>
@@ -1127,7 +1161,9 @@ export default function SectionPackages() {
                   </div>
                   <div>
                     <form action={"https://www.americanlogoartist.com/order/order-now.php"} method={"POST"}>
-                      <input type={"hidden"} name={"price"} value={"6999"} />
+                      <input type={"hidden"} name={"price"} value={"5599.20"} />
+                      <input type={"hidden"} name={"original_price"} value={"6999"} />
+                      <input type={"hidden"} name={"discount"} value={"20%"} />
                       <input type={"hidden"} name={"name"} value={"Platinum Website"} />
                       <input type={"hidden"} name={"services"} value={"Up to 20 Unique Pages Website, Custom Made, Interactive, Dynamic & High-End Design, Customized WordPress or PHP Development, Fully Mobile Responsive, Interactive Sliding Banners, Up to 15 Custom Made Banner Designs, 15 Stock Images, Unlimited Revisions, Content Management System, Online Appointment/Booking/Scheduling/Online Ordering Integration (Optional), Online Payment Integration (Optional), Multi Lingual (Optional), Custom Dynamic Forms (Optional), Signup Area (For Newsletters, Offers etc.), Search Bar, Live Feeds of Social Networks integration (Optional), Google Friendly Sitemap, Search Engine Submission, Cross Browser Compatible, Complete W3C Certified HTML, Industry specified Team of Expert Designers and Developers, Complete Deployment, Complete Source Files, Dedicated Project Manager, 100% Ownership Rights, 100% Satisfaction Guarantee, 100% Money Back Guarantee, *NO MONTHLY OR ANY HIDDEN FEE*"} />
                       <button type={"submit"} className={"theme-btn order"}>
@@ -1146,8 +1182,9 @@ export default function SectionPackages() {
                   <div className={"intro"}>
                     <div className={"prices"}>
                       <h2 style={{"fontSize": "2.5rem"}}>
-                        {"$499"}
+                        {"$399.20"}
                       </h2>
+                      <p className={"discount-note"}><del>{"$499"}</del>{" "}<span className={"discount-badge"}>{"20% OFF"}</span></p>
                       <h4 className={"text-center"}>
                         <span style={{"fontSize": "16px"}}>
                         </span>
@@ -1194,7 +1231,9 @@ export default function SectionPackages() {
                   </div>
                   <div>
                     <form action={"https://www.americanlogoartist.com/order/order-now.php"} method={"POST"}>
-                      <input type={"hidden"} name={"price"} value={"499"} />
+                      <input type={"hidden"} name={"price"} value={"399.20"} />
+                      <input type={"hidden"} name={"original_price"} value={"499"} />
+                      <input type={"hidden"} name={"discount"} value={"20%"} />
                       <input type={"hidden"} name={"name"} value={"Teaser Animation"} />
                       <input type={"hidden"} name={"services"} value={"30sec Duration, Script Writing, Custom Artwork, Background Music, HD Format Video, Dedicated Support, 100% Ownership Rights, 100% Money-back Guarantee"} />
                       <button type={"submit"} className={"theme-btn order"}>
@@ -1209,8 +1248,9 @@ export default function SectionPackages() {
                   <div className={"intro"}>
                     <div className={"prices"}>
                       <h2 style={{"fontSize": "2.5rem"}}>
-                        {"$799"}
+                        {"$639.20"}
                       </h2>
+                      <p className={"discount-note"}><del>{"$799"}</del>{" "}<span className={"discount-badge"}>{"20% OFF"}</span></p>
                       <h4 className={"text-center"}>
                         <span style={{"fontSize": "16px"}}>
                         </span>
@@ -1260,7 +1300,9 @@ export default function SectionPackages() {
                   </div>
                   <div>
                     <form action={"https://www.americanlogoartist.com/order/order-now.php"} method={"POST"}>
-                      <input type={"hidden"} name={"price"} value={"799"} />
+                      <input type={"hidden"} name={"price"} value={"639.20"} />
+                      <input type={"hidden"} name={"original_price"} value={"799"} />
+                      <input type={"hidden"} name={"discount"} value={"20%"} />
                       <input type={"hidden"} name={"name"} value={"Startup Animation"} />
                       <input type={"hidden"} name={"services"} value={"30sec Duration, Script Writing, Professional Voice-over & SFX, Hand-drawn Illustrations, Unlimited Revisions, HD Format Video, Dedicated Support, 100% Ownership Rights, 100% Money-back Guarantee"} />
                       <button type={"submit"} className={"theme-btn order"}>
@@ -1275,8 +1317,9 @@ export default function SectionPackages() {
                   <div className={"intro"}>
                     <div className={"prices"}>
                       <h2 style={{"fontSize": "2.5rem"}}>
-                        {"$999"}
+                        {"$799.20"}
                       </h2>
+                      <p className={"discount-note"}><del>{"$999"}</del>{" "}<span className={"discount-badge"}>{"20% OFF"}</span></p>
                       <h4 className={"text-center"}>
                         <span style={{"fontSize": "16px"}}>
                         </span>
@@ -1326,7 +1369,9 @@ export default function SectionPackages() {
                   </div>
                   <div>
                     <form action={"https://www.americanlogoartist.com/order/order-now.php"} method={"POST"}>
-                      <input type={"hidden"} name={"price"} value={"999"} />
+                      <input type={"hidden"} name={"price"} value={"799.20"} />
+                      <input type={"hidden"} name={"original_price"} value={"999"} />
+                      <input type={"hidden"} name={"discount"} value={"20%"} />
                       <input type={"hidden"} name={"name"} value={"Classic Animation"} />
                       <input type={"hidden"} name={"services"} value={"30sec Duration, Script Writing, Professional Voice-over & SFX, Custom 2D Characters, Unlimited Revisions, HD Format Video, Dedicated Support, 100% Ownership Rights, 100% Money-back Guarantee"} />
                       <button type={"submit"} className={"theme-btn order"}>
@@ -1341,8 +1386,9 @@ export default function SectionPackages() {
                   <div className={"intro"}>
                     <div className={"prices"}>
                       <h2 style={{"fontSize": "2.5rem"}}>
-                        {"$3999"}
+                        {"$3199.20"}
                       </h2>
+                      <p className={"discount-note"}><del>{"$3999"}</del>{" "}<span className={"discount-badge"}>{"20% OFF"}</span></p>
                       <h4 className={"text-center"}>
                         <span style={{"fontSize": "16px"}}>
                         </span>
@@ -1392,7 +1438,9 @@ export default function SectionPackages() {
                   </div>
                   <div>
                     <form action={"https://www.americanlogoartist.com/order/order-now.php"} method={"POST"}>
-                      <input type={"hidden"} name={"price"} value={"3999"} />
+                      <input type={"hidden"} name={"price"} value={"3199.20"} />
+                      <input type={"hidden"} name={"original_price"} value={"3999"} />
+                      <input type={"hidden"} name={"discount"} value={"20%"} />
                       <input type={"hidden"} name={"name"} value={"3D Video"} />
                       <input type={"hidden"} name={"services"} value={"2 3D Object Models, Unlimited Storyboard Revisions, Professional Voice-Over, Background Music, Exotic Animations, HD Video Format, 6 Weeks Delivery Time, 100% Ownership Rights, 100% Money-back Guarantee"} />
                       <button type={"submit"} className={"theme-btn order"}>
@@ -1411,8 +1459,9 @@ export default function SectionPackages() {
                   <div className={"intro"}>
                     <div className={"prices"}>
                       <h2 style={{"fontSize": "2.5rem"}}>
-                        {"$299"}
+                        {"$239.20"}
                       </h2>
+                      <p className={"discount-note"}><del>{"$299"}</del>{" "}<span className={"discount-badge"}>{"20% OFF"}</span></p>
                       <h4 className={"text-center"}>
                         {"$ "}
                         <del>
@@ -1457,7 +1506,9 @@ export default function SectionPackages() {
                   </div>
                   <div>
                     <form action={"https://www.americanlogoartist.com/order/order-now.php"} method={"POST"}>
-                      <input type={"hidden"} name={"price"} value={"299"} />
+                      <input type={"hidden"} name={"price"} value={"239.20"} />
+                      <input type={"hidden"} name={"original_price"} value={"299"} />
+                      <input type={"hidden"} name={"discount"} value={"20%"} />
                       <input type={"hidden"} name={"name"} value={"Basic SEO"} />
                       <input type={"hidden"} name={"services"} value={"10 Keywords Optimization, 4 Keywords in Top 10, Search Engine Submissions, 2 Blogs Writing, 4 Blog Posting Links, 10 Blogs Social Bookmarking Links, 1 Press Release Writing, 2 Press Release Links"} />
                       <button type={"submit"} className={"theme-btn order"}>
@@ -1472,8 +1523,9 @@ export default function SectionPackages() {
                   <div className={"intro"}>
                     <div className={"prices"}>
                       <h2 style={{"fontSize": "2.5rem"}}>
-                        {"$499"}
+                        {"$399.20"}
                       </h2>
+                      <p className={"discount-note"}><del>{"$499"}</del>{" "}<span className={"discount-badge"}>{"20% OFF"}</span></p>
                       <h4 className={"text-center"}>
                         {"$ "}
                         <del>
@@ -1518,7 +1570,9 @@ export default function SectionPackages() {
                   </div>
                   <div>
                     <form action={"https://www.americanlogoartist.com/order/order-now.php"} method={"POST"}>
-                      <input type={"hidden"} name={"price"} value={"499"} />
+                      <input type={"hidden"} name={"price"} value={"399.20"} />
+                      <input type={"hidden"} name={"original_price"} value={"499"} />
+                      <input type={"hidden"} name={"discount"} value={"20%"} />
                       <input type={"hidden"} name={"name"} value={"Standard SEO"} />
                       <input type={"hidden"} name={"services"} value={"25 Keywords Optimization, 10 Keywords in Top 10, Search Engine Submissions, 6 Blogs Writing, 12 Blog Posting Links, 20 Blogs Social Bookmarking Links, 2 Press Release Writing, 4 Press Release Links"} />
                       <button type={"submit"} className={"theme-btn order"}>
@@ -1533,8 +1587,9 @@ export default function SectionPackages() {
                   <div className={"intro"}>
                     <div className={"prices"}>
                       <h2 style={{"fontSize": "2.5rem"}}>
-                        {"$799"}
+                        {"$639.20"}
                       </h2>
+                      <p className={"discount-note"}><del>{"$799"}</del>{" "}<span className={"discount-badge"}>{"20% OFF"}</span></p>
                       <h4 className={"text-center"}>
                         {"$ "}
                         <del>
@@ -1579,7 +1634,9 @@ export default function SectionPackages() {
                   </div>
                   <div>
                     <form action={"https://www.americanlogoartist.com/order/order-now.php"} method={"POST"}>
-                      <input type={"hidden"} name={"price"} value={"799"} />
+                      <input type={"hidden"} name={"price"} value={"639.20"} />
+                      <input type={"hidden"} name={"original_price"} value={"799"} />
+                      <input type={"hidden"} name={"discount"} value={"20%"} />
                       <input type={"hidden"} name={"name"} value={"Professional SEO"} />
                       <input type={"hidden"} name={"services"} value={"50 Keywords Optimization, 20 Keywords in Top 10, 14 Blogs Writing, 28 Blog Posting Links, 30 Blogs Social Bookmarking Links, 4 Press Release Writing, 8 Press Release Links, 4 Guest Blogging Links"} />
                       <button type={"submit"} className={"theme-btn order"}>
@@ -1594,8 +1651,9 @@ export default function SectionPackages() {
                   <div className={"intro"}>
                     <div className={"prices"}>
                       <h2 style={{"fontSize": "2.5rem"}}>
-                        {"$1499"}
+                        {"$1199.20"}
                       </h2>
+                      <p className={"discount-note"}><del>{"$1499"}</del>{" "}<span className={"discount-badge"}>{"20% OFF"}</span></p>
                       <h4 className={"text-center"}>
                         {"$ "}
                         <del>
@@ -1640,7 +1698,9 @@ export default function SectionPackages() {
                   </div>
                   <div>
                     <form action={"https://www.americanlogoartist.com/order/order-now.php"} method={"POST"}>
-                      <input type={"hidden"} name={"price"} value={"1499"} />
+                      <input type={"hidden"} name={"price"} value={"1199.20"} />
+                      <input type={"hidden"} name={"original_price"} value={"1499"} />
+                      <input type={"hidden"} name={"discount"} value={"20%"} />
                       <input type={"hidden"} name={"name"} value={"Enterprise SEO"} />
                       <input type={"hidden"} name={"services"} value={"100 Keywords Optimization, 40 Keywords in Top 10, 30 Blogs Writing, 60 Blog Posting Links, 40 Blogs Social Bookmarking Links, 8 Press Release Writing, 8 Press Release Links, 8 Guest Blogging Links"} />
                       <button type={"submit"} className={"theme-btn order"}>
@@ -1659,8 +1719,9 @@ export default function SectionPackages() {
                   <div className={"intro"}>
                     <div className={"prices"}>
                       <h2 style={{"fontSize": "2.5rem"}}>
-                        {"$499"}
+                        {"$399.20"}
                       </h2>
+                      <p className={"discount-note"}><del>{"$499"}</del>{" "}<span className={"discount-badge"}>{"20% OFF"}</span></p>
                       <h4 className={"text-center"}>
                         <span style={{"fontSize": "16px"}}>
                         </span>
@@ -1727,7 +1788,9 @@ export default function SectionPackages() {
                   </div>
                   <div>
                     <form action={"https://www.americanlogoartist.com/order/order-now.php"} method={"POST"}>
-                      <input type={"hidden"} name={"price"} value={"499"} />
+                      <input type={"hidden"} name={"price"} value={"399.20"} />
+                      <input type={"hidden"} name={"original_price"} value={"499"} />
+                      <input type={"hidden"} name={"discount"} value={"20%"} />
                       <input type={"hidden"} name={"name"} value={"Branding Startup"} />
                       <input type={"hidden"} name={"services"} value={"Logo Design, 6 Unique Logo Concepts, FREE Icon, FREE Grayscale Copy, Unlimited Revisions, 100% Ownership Right, AI PSD EPS GIF BMP JPEG PNG Formats, Print Media, Stationery Design, Website Design, 5 Pages Custom Business Website, Complete Deployment"} />
                       <button type={"submit"} className={"theme-btn order"}>
@@ -1742,8 +1805,9 @@ export default function SectionPackages() {
                   <div className={"intro"}>
                     <div className={"prices"}>
                       <h2 style={{"fontSize": "2.5rem"}}>
-                        {"$999"}
+                        {"$799.20"}
                       </h2>
+                      <p className={"discount-note"}><del>{"$999"}</del>{" "}<span className={"discount-badge"}>{"20% OFF"}</span></p>
                       <h4 className={"text-center"}>
                         <span style={{"fontSize": "16px"}}>
                         </span>
@@ -1825,7 +1889,9 @@ export default function SectionPackages() {
                   </div>
                   <div>
                     <form action={"https://www.americanlogoartist.com/order/order-now.php"} method={"POST"}>
-                      <input type={"hidden"} name={"price"} value={"999"} />
+                      <input type={"hidden"} name={"price"} value={"799.20"} />
+                      <input type={"hidden"} name={"original_price"} value={"999"} />
+                      <input type={"hidden"} name={"discount"} value={"20%"} />
                       <input type={"hidden"} name={"name"} value={"Branding Plus"} />
                       <input type={"hidden"} name={"services"} value={"Logo Design, 12 Unique Logo Concepts, FREE Icon, FREE Grayscale Copy, Unlimited Revisions, 100% Ownership Right, AI PSD EPS GIF BMP JPEG PNG Formats, Print Material, Stationery Design, Flyer Design / Label Design, Website Design, Custom 5 Pages Professional Website, Content Management System (WordPress), Responsive Design (Mobile Compatible), Complete Deployment, Social Media Design, Facebook Fanpage Splash Page + Cover Photo"} />
                       <button type={"submit"} className={"theme-btn order"}>
@@ -1840,8 +1906,9 @@ export default function SectionPackages() {
                   <div className={"intro"}>
                     <div className={"prices"}>
                       <h2 style={{"fontSize": "2.5rem"}}>
-                        {"$1499"}
+                        {"$1199.20"}
                       </h2>
+                      <p className={"discount-note"}><del>{"$1499"}</del>{" "}<span className={"discount-badge"}>{"20% OFF"}</span></p>
                       <h4 className={"text-center"}>
                         <span style={{"fontSize": "16px"}}>
                         </span>
@@ -1930,7 +1997,9 @@ export default function SectionPackages() {
                   </div>
                   <div>
                     <form action={"https://www.americanlogoartist.com/order/order-now.php"} method={"POST"}>
-                      <input type={"hidden"} name={"price"} value={"1499"} />
+                      <input type={"hidden"} name={"price"} value={"1199.20"} />
+                      <input type={"hidden"} name={"original_price"} value={"1499"} />
+                      <input type={"hidden"} name={"discount"} value={"20%"} />
                       <input type={"hidden"} name={"name"} value={"Branding Classic"} />
                       <input type={"hidden"} name={"services"} value={"Logo Design, 12 Unique Logo Concepts, FREE Icon, FREE Grayscale Copy, Unlimited Revisions, 100% Ownership Right, AI PSD EPS GIF BMP JPEG PNG Formats, Print Material, Stationery Design (Business Card, Letterhead, Envelope), Any Product of your Choice (Bi-fold/Tri-fold Brochure / Menu Card / Corporate Profile), Website Design, 10+ Page Website, Content Management System (WordPress/Joomla), Complete Deployment, Search Engine Submission (Google, Bing, Yahoo and More), Social Media Design, Facebook Fanpage Splash Page + Cover Photo, Twitter Background Design"} />
                       <button type={"submit"} className={"theme-btn order"}>
@@ -1945,8 +2014,9 @@ export default function SectionPackages() {
                   <div className={"intro"}>
                     <div className={"prices"}>
                       <h2 style={{"fontSize": "2.5rem"}}>
-                        {"$1999"}
+                        {"$1599.20"}
                       </h2>
+                      <p className={"discount-note"}><del>{"$1999"}</del>{" "}<span className={"discount-badge"}>{"20% OFF"}</span></p>
                       <h4 className={"text-center"}>
                         <span style={{"fontSize": "16px"}}>
                         </span>
@@ -2040,7 +2110,9 @@ export default function SectionPackages() {
                   </div>
                   <div>
                     <form action={"https://www.americanlogoartist.com/order/order-now.php"} method={"POST"}>
-                      <input type={"hidden"} name={"price"} value={"1999"} />
+                      <input type={"hidden"} name={"price"} value={"1599.20"} />
+                      <input type={"hidden"} name={"original_price"} value={"1999"} />
+                      <input type={"hidden"} name={"discount"} value={"20%"} />
                       <input type={"hidden"} name={"name"} value={"Branding Ultimate"} />
                       <input type={"hidden"} name={"services"} value={"Logo Design, Infinite Unique Logo Concepts, FREE Icon, FREE Grayscale Copy, Unlimited Revisions, 100% Ownership Right, AI PSD EPS GIF BMP JPEG PNG Formats, Print Material, Stationery Design (Business Card, Letterhead, Envelope), 500 Business Cards, Letterhead, Envelop Prints, Any Product of your Choice (Bi-fold/Tri-fold Brochure / Menu Card / Corporate Profile), Website Design, 10+ Page Website, Content Management System (WordPress/Joomla), Responsive Design (Mobile Compatible), Complete Deployment, Social Media Design, Facebook Fanpage Splash Page + Cover Photo, Twitter Background Design, Complete Storyboard, VoiceOver & Animation"} />
                       <button type={"submit"} className={"theme-btn order"}>
@@ -2059,8 +2131,9 @@ export default function SectionPackages() {
                   <div className={"intro"}>
                     <div className={"prices"}>
                       <h2 style={{"fontSize": "2.5rem"}}>
-                        {"$249"}
+                        {"$199.20"}
                       </h2>
+                      <p className={"discount-note"}><del>{"$249"}</del>{" "}<span className={"discount-badge"}>{"20% OFF"}</span></p>
                       <h4 className={"text-center"}>
                         <span style={{"fontSize": "16px"}}>
                         </span>
@@ -2115,7 +2188,9 @@ export default function SectionPackages() {
                   </div>
                   <div>
                     <form action={"https://www.americanlogoartist.com/order/order-now.php"} method={"POST"}>
-                      <input type={"hidden"} name={"price"} value={"249"} />
+                      <input type={"hidden"} name={"price"} value={"199.20"} />
+                      <input type={"hidden"} name={"original_price"} value={"249"} />
+                      <input type={"hidden"} name={"discount"} value={"20%"} />
                       <input type={"hidden"} name={"name"} value={"Basic Printing"} />
                       <input type={"hidden"} name={"services"} value={"Print Media Design, Stationery Design, Flyer Design/Postcard, Printing Service, Multiple File Format, Turn around time 24 - 48 Hours, 100% Satisfaction Guaranteed, Add on: $30 for 24 - 48 Hours Rush Delivery"} />
                       <button type={"submit"} className={"theme-btn order"}>
@@ -2130,8 +2205,9 @@ export default function SectionPackages() {
                   <div className={"intro"}>
                     <div className={"prices"}>
                       <h2 style={{"fontSize": "2.5rem"}}>
-                        {"$499"}
+                        {"$399.20"}
                       </h2>
+                      <p className={"discount-note"}><del>{"$499"}</del>{" "}<span className={"discount-badge"}>{"20% OFF"}</span></p>
                       <h4 className={"text-center"}>
                         <span style={{"fontSize": "16px"}}>
                         </span>
@@ -2186,7 +2262,9 @@ export default function SectionPackages() {
                   </div>
                   <div>
                     <form action={"https://www.americanlogoartist.com/order/order-now.php"} method={"POST"}>
-                      <input type={"hidden"} name={"price"} value={"499"} />
+                      <input type={"hidden"} name={"price"} value={"399.20"} />
+                      <input type={"hidden"} name={"original_price"} value={"499"} />
+                      <input type={"hidden"} name={"discount"} value={"20%"} />
                       <input type={"hidden"} name={"name"} value={"Printing Plus"} />
                       <input type={"hidden"} name={"services"} value={"Print Media Design, Stationery Design, Flyer Design/Postcard/Menu Card, Printing Service, 500 x Business Card Prints, 500 x Letterhead Prints, 500 x Envelop Prints, 100 x Flyer Prints, Add on: $60 for 24 - 48 Hours Rush Delivery"} />
                       <button type={"submit"} className={"theme-btn order"}>
@@ -2201,8 +2279,9 @@ export default function SectionPackages() {
                   <div className={"intro"}>
                     <div className={"prices"}>
                       <h2 style={{"fontSize": "2.5rem"}}>
-                        {"$1299"}
+                        {"$1039.20"}
                       </h2>
+                      <p className={"discount-note"}><del>{"$1299"}</del>{" "}<span className={"discount-badge"}>{"20% OFF"}</span></p>
                       <h4 className={"text-center"}>
                         <span style={{"fontSize": "16px"}}>
                         </span>
@@ -2266,7 +2345,9 @@ export default function SectionPackages() {
                   </div>
                   <div>
                     <form action={"https://www.americanlogoartist.com/order/order-now.php"} method={"POST"}>
-                      <input type={"hidden"} name={"price"} value={"1299"} />
+                      <input type={"hidden"} name={"price"} value={"1039.20"} />
+                      <input type={"hidden"} name={"original_price"} value={"1299"} />
+                      <input type={"hidden"} name={"discount"} value={"20%"} />
                       <input type={"hidden"} name={"name"} value={"Printing Classic"} />
                       <input type={"hidden"} name={"services"} value={"Print Media Design, Stationery, Design (Business Card Letterhead Envelope), Flyer Design/Postcard/Menu Card Brochure/Product Packaging Design, Apparel Design (T-Shirt Cap Bumper Sticker), Printing Service, 1000 Prints Each (Business Card Letterhead Envelope), 250 Flyer/Brochure/Menu Card Prints, 50 T-Shirt Prints, Turnaround 24 - 48 Hours, Multiple File Formats (Ai PSD PNG JPEG etc), 100% Satisfaction Guaranteed, Add-on: $90 for 24 - 48 Hours Rush Delivery"} />
                       <button type={"submit"} className={"theme-btn order"}>
@@ -2285,8 +2366,9 @@ export default function SectionPackages() {
                   <div className={"intro"}>
                     <div className={"prices"}>
                       <h2 style={{"fontSize": "2.5rem"}}>
-                        {"$9999"}
+                        {"$7999.20"}
                       </h2>
+                      <p className={"discount-note"}><del>{"$9999"}</del>{" "}<span className={"discount-badge"}>{"20% OFF"}</span></p>
                       <h4 className={"text-center"}>
                         <span style={{"fontSize": "16px"}}>
                         </span>
@@ -2351,7 +2433,9 @@ export default function SectionPackages() {
                   </div>
                   <div>
                     <form action={"https://www.americanlogoartist.com/order/order-now.php"} method={"POST"}>
-                      <input type={"hidden"} name={"price"} value={"9999"} />
+                      <input type={"hidden"} name={"price"} value={"7999.20"} />
+                      <input type={"hidden"} name={"original_price"} value={"9999"} />
+                      <input type={"hidden"} name={"discount"} value={"20%"} />
                       <input type={"hidden"} name={"name"} value={"Startup Web Portal"} />
                       <input type={"hidden"} name={"services"} value={"Web portal Startup, Dating Portal, Job Portal, Professional Network, Social Network, Real Estate Portal, Medical Portal, News Portal, Enterprise Portal, Custom Coding, Module-wise Architecture, Extensive Admin Panel, Complete Deployment, 100% Custom Designs, Free 12-month Hosting & Domain Registration"} />
                       <button type={"submit"} className={"theme-btn order"}>
@@ -2366,8 +2450,9 @@ export default function SectionPackages() {
                   <div className={"intro"}>
                     <div className={"prices"}>
                       <h2 style={{"fontSize": "2.5rem"}}>
-                        {"$19999"}
+                        {"$15999.20"}
                       </h2>
+                      <p className={"discount-note"}><del>{"$19999"}</del>{" "}<span className={"discount-badge"}>{"20% OFF"}</span></p>
                       <h4 className={"text-center"}>
                         <span style={{"fontSize": "16px"}}>
                         </span>
@@ -2507,7 +2592,9 @@ export default function SectionPackages() {
                   </div>
                   <div>
                     <form action={"https://www.americanlogoartist.com/order/order-now.php"} method={"POST"}>
-                      <input type={"hidden"} name={"price"} value={"19999"} />
+                      <input type={"hidden"} name={"price"} value={"15999.20"} />
+                      <input type={"hidden"} name={"original_price"} value={"19999"} />
+                      <input type={"hidden"} name={"discount"} value={"20%"} />
                       <input type={"hidden"} name={"name"} value={"Web Portal Plus"} />
                       <input type={"hidden"} name={"services"} value={"Logo Design, 12 Unique Logo Concepts, Unlimited Revisions, 100% Ownership Right, AI PSD EPS GIF BMP JPEG PNG Formats, Print Material, Stationery Design, Flyer Design, Email Signature, Comprehensive Web Portal, Dating Portal, Job Portal, Professional Network, Social Network, Media Portal, Real Estate Portal, Medical Portal, News Portal, Enterprise Portal, 100% Custom Designs, Custom Coding, Module-wise Architecture, Extensive Admin Panel, Complete Deployment, SEO, 3 Months SEO Plan, 10 Keywords, Improved Google Visibility, Social Media Design, Facebook Fanpage Splash Page, Twitter Background Design, Explainer Video, 30 Sec HD Explainer Video, Storyboard VoiceOver & Animation, Discounted Price, Dedicated Account Manager, Satisfaction Guarantee, 30-days Moneyback Guarantee, Free 12-month Hosting & Domain Registration"} />
                       <button type={"submit"} className={"theme-btn order"}>
