@@ -11,7 +11,7 @@ export default function SectionP2() {
         <div className={"row align-items-start"}>
           <div className={"col-lg-3 col-md-6"}>
             <div className={"seo-card"}>
-              <img src={"/assets/img/social/facebook.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+              <img width={200} height={200} src={"/assets/img/social/facebook.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
               <h3>
                 {"Facebook Management"}
               </h3>
@@ -22,7 +22,7 @@ export default function SectionP2() {
           </div>
           <div className={"col-lg-3 col-md-6"}>
             <div className={"seo-card"}>
-              <img src={"/assets/img/social/twitter.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+              <img width={200} height={200} src={"/assets/img/social/twitter.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
               <h3>
                 {"Twitter Management"}
               </h3>
@@ -33,7 +33,7 @@ export default function SectionP2() {
           </div>
           <div className={"col-lg-3 col-md-6"}>
             <div className={"seo-card"}>
-              <img src={"/assets/img/social/instagram.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+              <img width={200} height={200} src={"/assets/img/social/instagram.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
               <h3>
                 {"Instagram Management"}
               </h3>
@@ -44,7 +44,7 @@ export default function SectionP2() {
           </div>
           <div className={"col-lg-3 col-md-6"}>
             <div className={"seo-card"}>
-              <img src={"/assets/img/social/youtube.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+              <img width={200} height={200} src={"/assets/img/social/youtube.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
               <h3>
                 {"YouTube Management"}
               </h3>

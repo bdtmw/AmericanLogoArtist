@@ -22,19 +22,19 @@ export default function SectionServices() {
         </div>
         <nav className={"nav nav-pills nav-fill services-tabs"} role={"tablist"}>
           <Tab value={"logoBrandingService"} className={"nav-link"} label={"Logo Branding"}>
-            <img src={"/assets/img/service-tab-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+            <img width={100} height={100} src={"/assets/img/service-tab-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
             {" Logo Branding "}
           </Tab>
           <Tab value={"webDevelopmentService"} className={"nav-link"} label={"Web Development"}>
-            <img src={"/assets/img/service-tab-2.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+            <img width={100} height={100} src={"/assets/img/service-tab-2.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
             {"Web Development "}
           </Tab>
           <Tab value={"videoAnimationService"} className={"nav-link"} label={"Video Animation"}>
-            <img src={"/assets/img/service-tab-3.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+            <img width={100} height={100} src={"/assets/img/service-tab-3.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
             {"Video Animation "}
           </Tab>
           <Tab value={"digitalMarketingService"} className={"nav-link"} label={"Digital Marketing"}>
-            <img src={"/assets/img/service-tab-4.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+            <img width={100} height={100} src={"/assets/img/service-tab-4.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
             {"Digital Marketing "}
           </Tab>
         </nav>
@@ -72,7 +72,7 @@ export default function SectionServices() {
               </div>
               <div className={"col-md-6"}>
                 <figure>
-                  <img src={"/assets/img/service-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                  <img width={485} height={415} src={"/assets/img/service-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                 </figure>
               </div>
             </div>
@@ -107,7 +107,7 @@ export default function SectionServices() {
               </div>
               <div className={"col-md-6"}>
                 <figure>
-                  <img src={"/assets/img/service-2.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                  <img width={837} height={717} src={"/assets/img/service-2.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                 </figure>
               </div>
             </div>
@@ -145,7 +145,7 @@ export default function SectionServices() {
               </div>
               <div className={"col-md-6"}>
                 <figure>
-                  <img src={"/assets/img/service-3.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                  <img width={837} height={717} src={"/assets/img/service-3.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                 </figure>
               </div>
             </div>
@@ -180,7 +180,7 @@ export default function SectionServices() {
               </div>
               <div className={"col-md-6"}>
                 <figure>
-                  <img src={"/assets/img/service-4.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                  <img width={1201} height={1483} src={"/assets/img/service-4.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                 </figure>
               </div>
             </div>

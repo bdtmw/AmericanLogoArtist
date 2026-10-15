@@ -24,7 +24,7 @@ export default function SectionTestimonials2() {
             <div className={"testimonial-card"}>
               <div className={"row align-items-center"}>
                 <div className={"col-md-6"}>
-                  <img src={"/assets/img/testimonial-1.webp"} alt={"Client brand design project"} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                  <img width={500} height={603} src={"/assets/img/testimonial-1.webp"} alt={"Client brand design project"} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                 </div>
                 <div className={"col-md-6"}>
                   <div className={"testimonial-content"}>
@@ -72,7 +72,7 @@ export default function SectionTestimonials2() {
             <div className={"testimonial-card"}>
               <div className={"row align-items-center"}>
                 <div className={"col-md-6"}>
-                  <img src={"/assets/img/testimonial-2.webp"} alt={"Client brand design project"} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                  <img width={525} height={592} src={"/assets/img/testimonial-2.webp"} alt={"Client brand design project"} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                 </div>
                 <div className={"col-md-6"}>
                   <div className={"testimonial-content"}>
@@ -120,7 +120,7 @@ export default function SectionTestimonials2() {
             <div className={"testimonial-card"}>
               <div className={"row align-items-center"}>
                 <div className={"col-md-6"}>
-                  <img src={"/assets/img/testimonial-3.webp"} alt={"Client brand design project"} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                  <img width={500} height={603} src={"/assets/img/testimonial-3.webp"} alt={"Client brand design project"} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                 </div>
                 <div className={"col-md-6"}>
                   <div className={"testimonial-content"}>

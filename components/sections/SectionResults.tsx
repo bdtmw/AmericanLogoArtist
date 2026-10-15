@@ -24,7 +24,7 @@ export default function SectionResults() {
             <ul className={"result-list"}>
               <li>
                 <div className={"result-card"}>
-                  <img src={"/assets/img/seo/results-icon-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                  <img width={142} height={142} src={"/assets/img/seo/results-icon-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                   <div>
                     <p>
                       {"Keywords "}
@@ -40,7 +40,7 @@ export default function SectionResults() {
               </li>
               <li>
                 <div className={"result-card"}>
-                  <img src={"/assets/img/seo/results-icon-2.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                  <img width={142} height={142} src={"/assets/img/seo/results-icon-2.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                   <div>
                     <p>
                       {"Expertise"}
@@ -56,7 +56,7 @@ export default function SectionResults() {
               </li>
               <li>
                 <div className={"result-card"}>
-                  <img src={"/assets/img/seo/results-icon-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                  <img width={142} height={142} src={"/assets/img/seo/results-icon-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                   <div>
                     <p>
                       {"Rankings"}
@@ -72,7 +72,7 @@ export default function SectionResults() {
               </li>
               <li>
                 <div className={"result-card"}>
-                  <img src={"/assets/img/seo/results-icon-2.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                  <img width={142} height={142} src={"/assets/img/seo/results-icon-2.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                   <div>
                     <p>
                       {"Generated"}
@@ -90,7 +90,7 @@ export default function SectionResults() {
           </div>
           <div className={"col-lg-7"}>
             <figure>
-              <img src={"/assets/img/seo/results-img.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+              <img width={980} height={734} src={"/assets/img/seo/results-img.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
             </figure>
           </div>
         </div>

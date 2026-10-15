@@ -22,7 +22,7 @@ export default function SectionRock2() {
         <div className={"row justify-content-center"}>
           <div className={"col-sm"}>
             <div className={"rock-card"}>
-              <img src={"/assets/img/rock01.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+              <img width={124} height={124} src={"/assets/img/rock01.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
               <h3>
                 {"Coordination with clients constantly"}
               </h3>
@@ -30,7 +30,7 @@ export default function SectionRock2() {
           </div>
           <div className={"col-sm"}>
             <div className={"rock-card"}>
-              <img src={"/assets/img/rock02.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+              <img width={124} height={124} src={"/assets/img/rock02.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
               <h3>
                 {"Providing superior customer satisfaction"}
               </h3>
@@ -38,7 +38,7 @@ export default function SectionRock2() {
           </div>
           <div className={"col-sm"}>
             <div className={"rock-card"}>
-              <img src={"/assets/img/rock03.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+              <img width={124} height={124} src={"/assets/img/rock03.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
               <h3>
                 {"Guaranteed money back"}
               </h3>
@@ -46,7 +46,7 @@ export default function SectionRock2() {
           </div>
           <div className={"col-sm"}>
             <div className={"rock-card"}>
-              <img src={"/assets/img/rock04.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+              <img width={124} height={124} src={"/assets/img/rock04.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
               <h3>
                 {"100% Ownership Rights"}
               </h3>
@@ -54,7 +54,7 @@ export default function SectionRock2() {
           </div>
           <div className={"col-sm"}>
             <div className={"rock-card"}>
-              <img src={"/assets/img/rock05.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+              <img width={124} height={124} src={"/assets/img/rock05.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
               <h3>
                 {"Professionals with years of industry experience"}
               </h3>

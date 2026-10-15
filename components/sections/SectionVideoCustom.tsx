@@ -69,7 +69,7 @@ export default function SectionVideoCustom() {
           </div>
           <div className={"col-lg-4"}>
             <figure className={"video-custom-img"}>
-              <img src={"/assets/img/video/professional-img.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+              <img width={567} height={1070} src={"/assets/img/video/professional-img.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
             </figure>
           </div>
           <div className={"col-lg-4"}>

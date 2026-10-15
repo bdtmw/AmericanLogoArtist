@@ -26,7 +26,7 @@ export default function SectionSeoService() {
               </div>
               <div className={"col-lg-6"}>
                 <figure>
-                  <img src={"/assets/img/seo/seo-img - Copy.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                  <img width={1919} height={924} src={"/assets/img/seo/seo-img - Copy.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                 </figure>
               </div>
             </div>
@@ -48,7 +48,7 @@ export default function SectionSeoService() {
               </div>
               <div className={"col-lg-6"}>
                 <figure>
-                  <img src={"/assets/img/seo/seo-img - Copy.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                  <img width={1919} height={924} src={"/assets/img/seo/seo-img - Copy.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                 </figure>
               </div>
             </div>
@@ -70,7 +70,7 @@ export default function SectionSeoService() {
               </div>
               <div className={"col-lg-6"}>
                 <figure>
-                  <img src={"/assets/img/seo/seo-img - Copy.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                  <img width={1919} height={924} src={"/assets/img/seo/seo-img - Copy.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                 </figure>
               </div>
             </div>

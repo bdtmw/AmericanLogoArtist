@@ -34,7 +34,7 @@ export default function SectionAllow() {
           </div>
           <div className={"col-lg-6"}>
             <figure>
-              <img src={"/assets/img/about/allow-img.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+              <img width={935} height={639} src={"/assets/img/about/allow-img.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
             </figure>
           </div>
         </div>

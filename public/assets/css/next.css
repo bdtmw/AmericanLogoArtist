@@ -121,3 +121,6 @@ button.nav-link, button.chat-btn { background: transparent; border: 0; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
 }
+
+/* Keep intrinsic width/height attributes (CLS) without distorting images */
+:where(img) { height: auto; }

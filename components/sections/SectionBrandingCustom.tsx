@@ -45,7 +45,7 @@ export default function SectionBrandingCustom() {
           </div>
           <div className={"col-lg-4"}>
             <figure className={"branding-custom-img"}>
-              <img src={"/assets/img/branding/custom-img.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+              <img width={674} height={837} src={"/assets/img/branding/custom-img.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
             </figure>
           </div>
           <div className={"col-lg-4"}>

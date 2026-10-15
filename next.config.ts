@@ -8,6 +8,13 @@ const config: NextConfig = {
   poweredByHeader: false,
   reactStrictMode: true,
   ...(staticPreview ? {} : {
+    async redirects() {
+      return [
+        { source: '/index', destination: '/', permanent: true },
+        { source: '/index.php', destination: '/', permanent: true },
+        { source: '/:slug.php', destination: '/:slug', permanent: true },
+      ];
+    },
     async headers() {
       return [{ source: '/(.*)', headers: [
         { key: 'X-Content-Type-Options', value: 'nosniff' },

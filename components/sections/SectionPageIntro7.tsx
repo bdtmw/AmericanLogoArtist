@@ -31,7 +31,7 @@ export default function SectionPageIntro7() {
           </div>
           <div className={"col-md-6"}>
             <figure>
-              <img src={"/assets/img/about/intro-img.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+              <img width={814} height={788} src={"/assets/img/about/intro-img.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
             </figure>
           </div>
         </div>

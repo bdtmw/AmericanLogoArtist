@@ -15,7 +15,7 @@ export default function SectionWrapper() {
           <div className={"preview"}>
             <div className={"stretch"}>
               <Link href={"/guide-for-clothing-brand"}>
-                <img src={"/assets/img/blog/Logo-01.jpg"} alt={"Article Image"} loading={"lazy"} decoding={"async"} />
+                <img width={960} height={640} src={"/assets/img/blog/Logo-01.jpg"} alt={"Article Image"} loading={"lazy"} decoding={"async"} />
               </Link>
             </div>
           </div>
@@ -42,7 +42,7 @@ export default function SectionWrapper() {
           <div className={"preview"}>
             <div className={"stretch"}>
               <Link href={"/affordable-effective-modern-law-firm-logo-redesigns-attorney-logo-packages"}>
-                <img src={"/assets/img/blog/Logo-02.jpg"} alt={"Article Image"} loading={"lazy"} decoding={"async"} />
+                <img width={960} height={640} src={"/assets/img/blog/Logo-02.jpg"} alt={"Article Image"} loading={"lazy"} decoding={"async"} />
               </Link>
             </div>
           </div>
@@ -69,7 +69,7 @@ export default function SectionWrapper() {
           <div className={"preview"}>
             <div className={"stretch"}>
               <Link href={"/nature-weddings-minimalism-designing-the-perfect-photography-logo"}>
-                <img src={"/assets/img/blog/Logo-03.jpg"} alt={"Article Image"} loading={"lazy"} decoding={"async"} />
+                <img width={960} height={640} src={"/assets/img/blog/Logo-03.jpg"} alt={"Article Image"} loading={"lazy"} decoding={"async"} />
               </Link>
             </div>
           </div>

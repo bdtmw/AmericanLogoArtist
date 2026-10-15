@@ -19,7 +19,7 @@ export default function SectionWorkflow() {
         <div className={"row workflow-row"}>
           <div className={"col-lg-3 col-md-6"}>
             <div className={"workflow-card"}>
-              <img src={"/assets/img/workflow-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+              <img width={130} height={130} src={"/assets/img/workflow-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
               <div className={"workflow-content"}>
                 <h3>
                   {"Examining"}
@@ -32,7 +32,7 @@ export default function SectionWorkflow() {
           </div>
           <div className={"col-lg-3 col-md-6"}>
             <div className={"workflow-card"}>
-              <img src={"/assets/img/workflow-2.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+              <img width={130} height={130} src={"/assets/img/workflow-2.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
               <div className={"workflow-content"}>
                 <h3>
                   {"Generating Ideas"}
@@ -45,7 +45,7 @@ export default function SectionWorkflow() {
           </div>
           <div className={"col-lg-3 col-md-6"}>
             <div className={"workflow-card"}>
-              <img src={"/assets/img/workflow-3.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+              <img width={130} height={130} src={"/assets/img/workflow-3.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
               <div className={"workflow-content"}>
                 <h3>
                   {"Implementing Design Concept"}
@@ -58,7 +58,7 @@ export default function SectionWorkflow() {
           </div>
           <div className={"col-lg-3 col-md-6"}>
             <div className={"workflow-card"}>
-              <img src={"/assets/img/workflow-4.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+              <img width={130} height={130} src={"/assets/img/workflow-4.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
               <div className={"workflow-content"}>
                 <h3>
                   {"Feedback and Evaluation"}

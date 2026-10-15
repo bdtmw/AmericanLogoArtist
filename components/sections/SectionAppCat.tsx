@@ -62,7 +62,7 @@ export default function SectionAppCat() {
               </div>
               <div className={"col-lg-6"}>
                 <figure>
-                  <img src={"/assets/img/app/ios-app-img.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                  <img width={1080} height={1080} src={"/assets/img/app/ios-app-img.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                 </figure>
               </div>
             </div>
@@ -102,7 +102,7 @@ export default function SectionAppCat() {
               </div>
               <div className={"col-lg-6"}>
                 <figure>
-                  <img src={"/assets/img/app/android-app-img.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                  <img width={1080} height={1080} src={"/assets/img/app/android-app-img.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                 </figure>
               </div>
             </div>
@@ -145,7 +145,7 @@ export default function SectionAppCat() {
               </div>
               <div className={"col-lg-6"}>
                 <figure>
-                  <img src={"/assets/img/app/game-app-img.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                  <img width={1080} height={1080} src={"/assets/img/app/game-app-img.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                 </figure>
               </div>
             </div>
@@ -182,7 +182,7 @@ export default function SectionAppCat() {
               </div>
               <div className={"col-lg-6"}>
                 <figure>
-                  <img src={"/assets/img/app/ar-app-img.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                  <img width={1080} height={1080} src={"/assets/img/app/ar-app-img.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                 </figure>
               </div>
             </div>

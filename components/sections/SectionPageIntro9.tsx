@@ -18,7 +18,7 @@ export default function SectionPageIntro9() {
               <h3>
                 {"Refund Policy / Money Back Guarantee"}
               </h3>
-              {" In any event, any deposited funds for a project shall not be subject to refund after delivery if the initial design concepts are approved, or a change is requested unless American Logo Specialists™ cancels or terminates your Contract for a reason other than your breach or non-performance. "}
+              {" In any event, any deposited funds for a project shall not be subject to refund after delivery if the initial design concepts are approved, or a change is requested unless American Logo Artist™ cancels or terminates your Contract for a reason other than your breach or non-performance. "}
               <h3>
                 {"All refund requests will be fulfilled as per the following arrangement:"}
               </h3>
@@ -54,10 +54,10 @@ export default function SectionPageIntro9() {
                   {"For video animation packages no refund request will be entertained after the designing of the storyboard."}
                 </li>
                 <li>
-                  {"All refund requests should be communicated to the support department. American Logo Specialists, based on the violation of your user agreement reserves the right to approve/disapprove your request on an individual case to case basis."}
+                  {"All refund requests should be communicated to the support department. American Logo Artist, based on the violation of your user agreement reserves the right to approve/disapprove your request on an individual case to case basis."}
                 </li>
                 <li>
-                  {"For American Logo Specialists / Custom packages, refund will be applicable the same as it is on the single packages."}
+                  {"For American Logo Artist / Custom packages, refund will be applicable the same as it is on the single packages."}
                 </li>
                 <li>
                   {"For example, if you order logo and web design service and approve the logo, you can claim refund for the website service at the time of initial design only."}
@@ -72,7 +72,7 @@ export default function SectionPageIntro9() {
                   {"All design jobs require customer feedback before finalizing the design therefore it is only fair that the customer gets involved and provides feedback in order to get the desired results."}
                 </li>
                 <li>
-                  {"100% unique design guarantee entitles you to a re-draw if our designed logo is to be found considerably similar to another logo design that may already exist. Any resemblance to an existing design will be merely a coincidence and American Logo Specialists will not accept any responsibility or claim of any compensation in such a case. It is the client's responsibility to get their art work copyrighted."}
+                  {"100% unique design guarantee entitles you to a re-draw if our designed logo is to be found considerably similar to another logo design that may already exist. Any resemblance to an existing design will be merely a coincidence and American Logo Artist will not accept any responsibility or claim of any compensation in such a case. It is the client's responsibility to get their art work copyrighted."}
                 </li>
               </ul>
               <h3>
@@ -89,22 +89,22 @@ export default function SectionPageIntro9() {
                       {"Toll free # (307) 218-3240"}
                     </li>
                     <li>
-                      <a href={"mailto: info@americanlogospecialists.com"}>
+                      <a href={"mailto: info@americanlogoartist.com"}>
                         <span className={"elementor-icon-list-text"}>
-                          {" info@americanlogospecialists.com"}
+                          {" info@americanlogoartist.com"}
                         </span>
                       </a>
                     </li>
                     <li>
-                      {"We will try to resolve your concern by virtue of our revision policy immediately or else will email you a refund request approval from our refund department. After the refund, your design rights would be obtained by American Logo Specialists and you would not be able to display any version of the design sent by company. Let us also specify that: "}
+                      {"We will try to resolve your concern by virtue of our revision policy immediately or else will email you a refund request approval from our refund department. After the refund, your design rights would be obtained by American Logo Artist and you would not be able to display any version of the design sent by company. Let us also specify that: "}
                       <ul className={"term_li"}>
                         <li>
                           {"Since the design rights would now be transferred to the company, you agree that you will have no right (direct or indirect) to use any response or other content, work product or media, nor will you have any ownership interest in or to the same."}
                         </li>
                         <li>
-                          {"Working in collaboration with the Government Copyright Agencies American Logo Specialists would share Copyright Acquisition information for the refunded designs that would restrict the re-use of the designs as original designs in the future. If you have any questions or concerns about our Refund Policy, please contact us by clicking here."}
-                          <a href={"mailto: info@americanlogospecialists.com"}>
-                            {" info@americanlogospecialists.com"}
+                          {"Working in collaboration with the Government Copyright Agencies American Logo Artist would share Copyright Acquisition information for the refunded designs that would restrict the re-use of the designs as original designs in the future. If you have any questions or concerns about our Refund Policy, please contact us by clicking here."}
+                          <a href={"mailto: info@americanlogoartist.com"}>
+                            {" info@americanlogoartist.com"}
                           </a>
                           {"."}
                         </li>
@@ -138,15 +138,15 @@ export default function SectionPageIntro9() {
                   <h3>
                     {"Communication Policy"}
                   </h3>
-                  {" YOU agree that American Logo Specialists is not liable for any correspondence from email address (es) other than the ones followed by our own domain i.e. \".."}
-                  <a href={"https://americanlogospecialists.com/terms"}>
-                    {"@americanlogospecialists.com"}
+                  {" YOU agree that American Logo Artist is not liable for any correspondence from email address (es) other than the ones followed by our own domain i.e. \".."}
+                  <a href={"https://americanlogoartist.com/terms"}>
+                    {"@americanlogoartist.com"}
                   </a>
-                  {"\" or/and any toll free number that is not mentioned on our website. American Logo Specialists should not be held responsible for any damage(s) caused by such correspondence. We only take responsibility of any communication through email address (es) under our own domain name or/and via toll free number i.e. already mentioned on American Logo Specialists Website. "}
+                  {"\" or/and any toll free number that is not mentioned on our website. American Logo Artist should not be held responsible for any damage(s) caused by such correspondence. We only take responsibility of any communication through email address (es) under our own domain name or/and via toll free number i.e. already mentioned on American Logo Artist Website. "}
                   <h3>
                     {"100% Unique Design Guarantee"}
                   </h3>
-                  {" At American Logo Specialists we guarantee that all of our customers' logos are made from scratch. This way you will have a logo that is tailor made for your requirements. We guarantee that your logo will be unique and impress your clientele "}
+                  {" At American Logo Artist we guarantee that all of our customers' logos are made from scratch. This way you will have a logo that is tailor made for your requirements. We guarantee that your logo will be unique and impress your clientele "}
                   <h3>
                     {"On-Hold Projects Clause"}
                   </h3>

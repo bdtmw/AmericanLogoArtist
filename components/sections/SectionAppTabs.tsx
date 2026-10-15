@@ -11,16 +11,16 @@ export default function SectionAppTabs() {
       <div className={"container"}>
         <nav className={"nav nav-pills app-tabs"} role={"tablist"}>
           <Tab value={"apple"} className={"nav-link"} label={"Ios"}>
-            <img src={"/assets/img/app/apple.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+            <img width={96} height={96} src={"/assets/img/app/apple.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
           </Tab>
           <Tab value={"android"} className={"nav-link"} label={"Android"}>
-            <img src={"/assets/img/app/android.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+            <img width={96} height={96} src={"/assets/img/app/android.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
           </Tab>
           <Tab value={"appStore"} className={"nav-link"} label={"App Store"}>
-            <img src={"/assets/img/app/app-store.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+            <img width={96} height={96} src={"/assets/img/app/app-store.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
           </Tab>
           <Tab value={"flutter"} className={"nav-link"} label={"Flutter"}>
-            <img src={"/assets/img/app/flutter.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+            <img width={96} height={96} src={"/assets/img/app/flutter.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
           </Tab>
         </nav>
         <div className={"tab-content app-tab-content"}>
@@ -50,7 +50,7 @@ export default function SectionAppTabs() {
                 <Carousel className={"app-tab-slider"} columns={2}>
                   <div className={"inner-slide"}>
                     <div className={"app-tab-slide-card"}>
-                      <img src={"/assets/img/app/customize.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                      <img width={120} height={120} src={"/assets/img/app/customize.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                       <h3>
                         {"Mobile Application Strategy"}
                       </h3>
@@ -61,7 +61,7 @@ export default function SectionAppTabs() {
                   </div>
                   <div className={"inner-slide"}>
                     <div className={"app-tab-slide-card"}>
-                      <img src={"/assets/img/app/design.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                      <img width={120} height={120} src={"/assets/img/app/design.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                       <h3>
                         {"User Experience Design"}
                       </h3>
@@ -72,7 +72,7 @@ export default function SectionAppTabs() {
                   </div>
                   <div className={"inner-slide"}>
                     <div className={"app-tab-slide-card"}>
-                      <img src={"/assets/img/app/develop.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                      <img width={120} height={120} src={"/assets/img/app/develop.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                       <h3>
                         {"Mobile Application Development"}
                       </h3>
@@ -83,7 +83,7 @@ export default function SectionAppTabs() {
                   </div>
                   <div className={"inner-slide"}>
                     <div className={"app-tab-slide-card"}>
-                      <img src={"/assets/img/app/develop.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                      <img width={120} height={120} src={"/assets/img/app/develop.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                       <h3>
                         {"Testing"}
                       </h3>
@@ -122,7 +122,7 @@ export default function SectionAppTabs() {
                 <Carousel className={"app-tab-slider"} columns={2}>
                   <div className={"inner-slide"}>
                     <div className={"app-tab-slide-card"}>
-                      <img src={"/assets/img/app/customize.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                      <img width={120} height={120} src={"/assets/img/app/customize.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                       <h3>
                         {"Mobile Application Strategy"}
                       </h3>
@@ -133,7 +133,7 @@ export default function SectionAppTabs() {
                   </div>
                   <div className={"inner-slide"}>
                     <div className={"app-tab-slide-card"}>
-                      <img src={"/assets/img/app/design.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                      <img width={120} height={120} src={"/assets/img/app/design.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                       <h3>
                         {"User Experience Design"}
                       </h3>
@@ -144,7 +144,7 @@ export default function SectionAppTabs() {
                   </div>
                   <div className={"inner-slide"}>
                     <div className={"app-tab-slide-card"}>
-                      <img src={"/assets/img/app/develop.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                      <img width={120} height={120} src={"/assets/img/app/develop.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                       <h3>
                         {"Mobile Application Development"}
                       </h3>
@@ -155,7 +155,7 @@ export default function SectionAppTabs() {
                   </div>
                   <div className={"inner-slide"}>
                     <div className={"app-tab-slide-card"}>
-                      <img src={"/assets/img/app/develop.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                      <img width={120} height={120} src={"/assets/img/app/develop.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                       <h3>
                         {"Testing"}
                       </h3>
@@ -194,7 +194,7 @@ export default function SectionAppTabs() {
                 <Carousel className={"app-tab-slider"} columns={2}>
                   <div className={"inner-slide"}>
                     <div className={"app-tab-slide-card"}>
-                      <img src={"/assets/img/app/customize.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                      <img width={120} height={120} src={"/assets/img/app/customize.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                       <h3>
                         {"Mobile Application Strategy"}
                       </h3>
@@ -205,7 +205,7 @@ export default function SectionAppTabs() {
                   </div>
                   <div className={"inner-slide"}>
                     <div className={"app-tab-slide-card"}>
-                      <img src={"/assets/img/app/design.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                      <img width={120} height={120} src={"/assets/img/app/design.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                       <h3>
                         {"User Experience Design"}
                       </h3>
@@ -216,7 +216,7 @@ export default function SectionAppTabs() {
                   </div>
                   <div className={"inner-slide"}>
                     <div className={"app-tab-slide-card"}>
-                      <img src={"/assets/img/app/develop.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                      <img width={120} height={120} src={"/assets/img/app/develop.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                       <h3>
                         {"Mobile Application Development"}
                       </h3>
@@ -227,7 +227,7 @@ export default function SectionAppTabs() {
                   </div>
                   <div className={"inner-slide"}>
                     <div className={"app-tab-slide-card"}>
-                      <img src={"/assets/img/app/develop.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                      <img width={120} height={120} src={"/assets/img/app/develop.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                       <h3>
                         {"Testing"}
                       </h3>
@@ -266,7 +266,7 @@ export default function SectionAppTabs() {
                 <Carousel className={"app-tab-slider"} columns={2}>
                   <div className={"inner-slide"}>
                     <div className={"app-tab-slide-card"}>
-                      <img src={"/assets/img/app/customize.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                      <img width={120} height={120} src={"/assets/img/app/customize.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                       <h3>
                         {"Mobile Application Strategy"}
                       </h3>
@@ -277,7 +277,7 @@ export default function SectionAppTabs() {
                   </div>
                   <div className={"inner-slide"}>
                     <div className={"app-tab-slide-card"}>
-                      <img src={"/assets/img/app/design.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                      <img width={120} height={120} src={"/assets/img/app/design.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                       <h3>
                         {"User Experience Design"}
                       </h3>
@@ -288,7 +288,7 @@ export default function SectionAppTabs() {
                   </div>
                   <div className={"inner-slide"}>
                     <div className={"app-tab-slide-card"}>
-                      <img src={"/assets/img/app/develop.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                      <img width={120} height={120} src={"/assets/img/app/develop.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                       <h3>
                         {"Mobile Application Development"}
                       </h3>
@@ -299,7 +299,7 @@ export default function SectionAppTabs() {
                   </div>
                   <div className={"inner-slide"}>
                     <div className={"app-tab-slide-card"}>
-                      <img src={"/assets/img/app/develop.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                      <img width={120} height={120} src={"/assets/img/app/develop.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                       <h3>
                         {"Testing"}
                       </h3>

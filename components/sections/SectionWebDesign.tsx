@@ -31,7 +31,7 @@ export default function SectionWebDesign() {
               </div>
               <div className={"col-lg-6"}>
                 <figure>
-                  <img src={"/assets/img/website/web-design-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                  <img width={763} height={488} src={"/assets/img/website/web-design-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                 </figure>
               </div>
             </div>
@@ -50,7 +50,7 @@ export default function SectionWebDesign() {
               </div>
               <div className={"col-lg-6"}>
                 <figure>
-                  <img src={"/assets/img/website/web-design-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                  <img width={763} height={488} src={"/assets/img/website/web-design-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                 </figure>
               </div>
             </div>
@@ -69,7 +69,7 @@ export default function SectionWebDesign() {
               </div>
               <div className={"col-lg-6"}>
                 <figure>
-                  <img src={"/assets/img/website/web-design-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                  <img width={763} height={488} src={"/assets/img/website/web-design-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                 </figure>
               </div>
             </div>

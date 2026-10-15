@@ -22,7 +22,7 @@ export default function SectionPowered() {
         <div className={"row"}>
           <div className={"col-md-2"}>
             <div className={"power-card"}>
-              <img src={"/assets/img/app/react.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+              <img width={120} height={120} src={"/assets/img/app/react.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
               <h3>
                 {"React"}
               </h3>
@@ -30,7 +30,7 @@ export default function SectionPowered() {
           </div>
           <div className={"col-md-2"}>
             <div className={"power-card"}>
-              <img src={"/assets/img/app/mosync.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+              <img width={120} height={120} src={"/assets/img/app/mosync.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
               <h3>
                 {"MoSync"}
               </h3>
@@ -38,7 +38,7 @@ export default function SectionPowered() {
           </div>
           <div className={"col-md-2"}>
             <div className={"power-card"}>
-              <img src={"/assets/img/app/swift.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+              <img width={120} height={120} src={"/assets/img/app/swift.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
               <h3>
                 {"Swift"}
               </h3>
@@ -46,7 +46,7 @@ export default function SectionPowered() {
           </div>
           <div className={"col-md-2"}>
             <div className={"power-card"}>
-              <img src={"/assets/img/app/c.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+              <img width={120} height={120} src={"/assets/img/app/c.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
               <h3>
                 {"C++"}
               </h3>
@@ -54,7 +54,7 @@ export default function SectionPowered() {
           </div>
           <div className={"col-md-2"}>
             <div className={"power-card"}>
-              <img src={"/assets/img/app/java.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+              <img width={120} height={120} src={"/assets/img/app/java.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
               <h3>
                 {"Java"}
               </h3>
@@ -62,7 +62,7 @@ export default function SectionPowered() {
           </div>
           <div className={"col-md-2"}>
             <div className={"power-card"}>
-              <img src={"/assets/img/app/html.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+              <img width={120} height={120} src={"/assets/img/app/html.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
               <h3>
                 {"HTML 5"}
               </h3>

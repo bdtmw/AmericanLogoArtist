@@ -14,7 +14,7 @@ export default function SectionContact() {
           </div>
           <div className={"col-lg-6"}>
             <figure>
-              <img src={"/assets/img/contact-img.webp"} alt={"Talk to our creative team"} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+              <img width={878} height={693} src={"/assets/img/contact-img.webp"} alt={"Talk to our creative team"} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
             </figure>
           </div>
         </div>

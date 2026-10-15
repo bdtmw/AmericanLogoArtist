@@ -60,7 +60,7 @@ export default function SectionPackages() {
                         <br />
                         {"Basic "}
                       </h4>
-                      <img src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                      <img width={100} height={100} src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                     </div>
                   </div>
                   <div>
@@ -129,7 +129,7 @@ export default function SectionPackages() {
                         <br />
                         {"Silver "}
                       </h4>
-                      <img src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                      <img width={100} height={100} src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                     </div>
                   </div>
                   <div>
@@ -192,7 +192,7 @@ export default function SectionPackages() {
                         <br />
                         {"Gold"}
                       </h4>
-                      <img src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                      <img width={100} height={100} src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                     </div>
                   </div>
                   <div>
@@ -258,7 +258,7 @@ export default function SectionPackages() {
                         <br />
                         {" Platinum "}
                       </h4>
-                      <img src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                      <img width={100} height={100} src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                     </div>
                   </div>
                   <div>
@@ -330,7 +330,7 @@ export default function SectionPackages() {
                         <br />
                         {"Package "}
                       </h4>
-                      <img src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                      <img width={100} height={100} src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                     </div>
                   </div>
                   <div>
@@ -402,7 +402,7 @@ export default function SectionPackages() {
                         <br />
                         {"Boss "}
                       </h4>
-                      <img src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                      <img width={100} height={100} src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                     </div>
                   </div>
                   <div>
@@ -492,7 +492,7 @@ export default function SectionPackages() {
                         <br />
                         {"Website"}
                       </h4>
-                      <img src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                      <img width={100} height={100} src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                     </div>
                   </div>
                   <div>
@@ -590,7 +590,7 @@ export default function SectionPackages() {
                         <br />
                         {"Website"}
                       </h4>
-                      <img src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                      <img width={100} height={100} src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                     </div>
                   </div>
                   <div>
@@ -691,7 +691,7 @@ export default function SectionPackages() {
                         <br />
                         {"Website"}
                       </h4>
-                      <img src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                      <img width={100} height={100} src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                     </div>
                   </div>
                   <div>
@@ -798,7 +798,7 @@ export default function SectionPackages() {
                         <br />
                         {"Website "}
                       </h4>
-                      <img src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                      <img width={100} height={100} src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                     </div>
                   </div>
                   <div>
@@ -909,7 +909,7 @@ export default function SectionPackages() {
                         <br />
                         {"Website "}
                       </h4>
-                      <img src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                      <img width={100} height={100} src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                     </div>
                   </div>
                   <div>
@@ -1026,7 +1026,7 @@ export default function SectionPackages() {
                         <br />
                         {"Website "}
                       </h4>
-                      <img src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                      <img width={100} height={100} src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                     </div>
                   </div>
                   <div>
@@ -1161,7 +1161,7 @@ export default function SectionPackages() {
                       <h4>
                         {"Teaser"}
                       </h4>
-                      <img src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                      <img width={100} height={100} src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                     </div>
                   </div>
                   <div>
@@ -1224,7 +1224,7 @@ export default function SectionPackages() {
                       <h4>
                         {"Startup"}
                       </h4>
-                      <img src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                      <img width={100} height={100} src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                     </div>
                   </div>
                   <div>
@@ -1290,7 +1290,7 @@ export default function SectionPackages() {
                       <h4>
                         {"Classic"}
                       </h4>
-                      <img src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                      <img width={100} height={100} src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                     </div>
                   </div>
                   <div>
@@ -1356,7 +1356,7 @@ export default function SectionPackages() {
                       <h4>
                         {"3D Video"}
                       </h4>
-                      <img src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                      <img width={100} height={100} src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                     </div>
                   </div>
                   <div>
@@ -1424,7 +1424,7 @@ export default function SectionPackages() {
                       <h4>
                         {"Basic"}
                       </h4>
-                      <img src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                      <img width={100} height={100} src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                     </div>
                   </div>
                   <div>
@@ -1485,7 +1485,7 @@ export default function SectionPackages() {
                       <h4>
                         {"Standard"}
                       </h4>
-                      <img src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                      <img width={100} height={100} src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                     </div>
                   </div>
                   <div>
@@ -1546,7 +1546,7 @@ export default function SectionPackages() {
                       <h4>
                         {"Professional"}
                       </h4>
-                      <img src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                      <img width={100} height={100} src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                     </div>
                   </div>
                   <div>
@@ -1607,7 +1607,7 @@ export default function SectionPackages() {
                       <h4>
                         {"Enterprise"}
                       </h4>
-                      <img src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                      <img width={100} height={100} src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                     </div>
                   </div>
                   <div>
@@ -1676,7 +1676,7 @@ export default function SectionPackages() {
                         <br />
                         {"Startup"}
                       </h4>
-                      <img src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                      <img width={100} height={100} src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                     </div>
                   </div>
                   <div>
@@ -1759,7 +1759,7 @@ export default function SectionPackages() {
                         <br />
                         {"Plus "}
                       </h4>
-                      <img src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                      <img width={100} height={100} src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                     </div>
                   </div>
                   <div>
@@ -1857,7 +1857,7 @@ export default function SectionPackages() {
                         <br />
                         {"Classic "}
                       </h4>
-                      <img src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                      <img width={100} height={100} src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                     </div>
                   </div>
                   <div>
@@ -1926,16 +1926,13 @@ export default function SectionPackages() {
                       <li>
                         {"Twitter Background Design"}
                       </li>
-                      <li>
-                        {"Google+ Profile Banner"}
-                      </li>
                     </ul>
                   </div>
                   <div>
                     <form action={"https://www.americanlogoartist.com/order/order-now.php"} method={"POST"}>
                       <input type={"hidden"} name={"price"} value={"1499"} />
                       <input type={"hidden"} name={"name"} value={"Branding Classic"} />
-                      <input type={"hidden"} name={"services"} value={"Logo Design, 12 Unique Logo Concepts, FREE Icon, FREE Grayscale Copy, Unlimited Revisions, 100% Ownership Right, AI PSD EPS GIF BMP JPEG PNG Formats, Print Material, Stationery Design (Business Card, Letterhead, Envelope), Any Product of your Choice (Bi-fold/Tri-fold Brochure / Menu Card / Corporate Profile), Website Design, 10+ Page Website, Content Management System (WordPress/Joomla), Complete Deployment, Search Engine Submission (Google, Bing, Yahoo and More), Social Media Design, Facebook Fanpage Splash Page + Cover Photo, Twitter Background Design, Google+ Profile Banner"} />
+                      <input type={"hidden"} name={"services"} value={"Logo Design, 12 Unique Logo Concepts, FREE Icon, FREE Grayscale Copy, Unlimited Revisions, 100% Ownership Right, AI PSD EPS GIF BMP JPEG PNG Formats, Print Material, Stationery Design (Business Card, Letterhead, Envelope), Any Product of your Choice (Bi-fold/Tri-fold Brochure / Menu Card / Corporate Profile), Website Design, 10+ Page Website, Content Management System (WordPress/Joomla), Complete Deployment, Search Engine Submission (Google, Bing, Yahoo and More), Social Media Design, Facebook Fanpage Splash Page + Cover Photo, Twitter Background Design"} />
                       <button type={"submit"} className={"theme-btn order"}>
                         {"Order now"}
                       </button>
@@ -1965,7 +1962,7 @@ export default function SectionPackages() {
                         <br />
                         {"Ultimate "}
                       </h4>
-                      <img src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                      <img width={100} height={100} src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                     </div>
                   </div>
                   <div>
@@ -2037,9 +2034,6 @@ export default function SectionPackages() {
                         {"Twitter Background Design"}
                       </li>
                       <li>
-                        {"Google+ Profile Banner"}
-                      </li>
-                      <li>
                         {" Complete Storyboard, VoiceOver & Animation "}
                       </li>
                     </ul>
@@ -2048,7 +2042,7 @@ export default function SectionPackages() {
                     <form action={"https://www.americanlogoartist.com/order/order-now.php"} method={"POST"}>
                       <input type={"hidden"} name={"price"} value={"1999"} />
                       <input type={"hidden"} name={"name"} value={"Branding Ultimate"} />
-                      <input type={"hidden"} name={"services"} value={"Logo Design, Infinite Unique Logo Concepts, FREE Icon, FREE Grayscale Copy, Unlimited Revisions, 100% Ownership Right, AI PSD EPS GIF BMP JPEG PNG Formats, Print Material, Stationery Design (Business Card, Letterhead, Envelope), 500 Business Cards, Letterhead, Envelop Prints, Any Product of your Choice (Bi-fold/Tri-fold Brochure / Menu Card / Corporate Profile), Website Design, 10+ Page Website, Content Management System (WordPress/Joomla), Responsive Design (Mobile Compatible), Complete Deployment, Social Media Design, Facebook Fanpage Splash Page + Cover Photo, Twitter Background Design, Google+ Profile Banner, Complete Storyboard, VoiceOver & Animation"} />
+                      <input type={"hidden"} name={"services"} value={"Logo Design, Infinite Unique Logo Concepts, FREE Icon, FREE Grayscale Copy, Unlimited Revisions, 100% Ownership Right, AI PSD EPS GIF BMP JPEG PNG Formats, Print Material, Stationery Design (Business Card, Letterhead, Envelope), 500 Business Cards, Letterhead, Envelop Prints, Any Product of your Choice (Bi-fold/Tri-fold Brochure / Menu Card / Corporate Profile), Website Design, 10+ Page Website, Content Management System (WordPress/Joomla), Responsive Design (Mobile Compatible), Complete Deployment, Social Media Design, Facebook Fanpage Splash Page + Cover Photo, Twitter Background Design, Complete Storyboard, VoiceOver & Animation"} />
                       <button type={"submit"} className={"theme-btn order"}>
                         {"Order now"}
                       </button>
@@ -2080,7 +2074,7 @@ export default function SectionPackages() {
                       <h4>
                         {"Basic"}
                       </h4>
-                      <img src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                      <img width={100} height={100} src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                     </div>
                   </div>
                   <div>
@@ -2151,7 +2145,7 @@ export default function SectionPackages() {
                       <h4>
                         {"Plus"}
                       </h4>
-                      <img src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                      <img width={100} height={100} src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                     </div>
                   </div>
                   <div>
@@ -2222,7 +2216,7 @@ export default function SectionPackages() {
                       <h4>
                         {"Classic"}
                       </h4>
-                      <img src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                      <img width={100} height={100} src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                     </div>
                   </div>
                   <div>
@@ -2306,7 +2300,7 @@ export default function SectionPackages() {
                       <h4>
                         {"Startup Web Portal"}
                       </h4>
-                      <img src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                      <img width={100} height={100} src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                     </div>
                   </div>
                   <div>
@@ -2387,7 +2381,7 @@ export default function SectionPackages() {
                       <h4>
                         {"Web Portal Plus"}
                       </h4>
-                      <img src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                      <img width={100} height={100} src={"/assets/img/package-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
                     </div>
                   </div>
                   <div>
@@ -2474,7 +2468,7 @@ export default function SectionPackages() {
                         {"10 Keywords"}
                       </li>
                       <li>
-                        {"Top Ranking on Google"}
+                        {"Improved Google Visibility"}
                       </li>
                       <li>
                         {"Social Media Design"}
@@ -2484,9 +2478,6 @@ export default function SectionPackages() {
                       </li>
                       <li>
                         {"Twitter Background Design"}
-                      </li>
-                      <li>
-                        {"Google+ Profile Banner"}
                       </li>
                       <li>
                         {"Explainer Video"}
@@ -2518,7 +2509,7 @@ export default function SectionPackages() {
                     <form action={"https://www.americanlogoartist.com/order/order-now.php"} method={"POST"}>
                       <input type={"hidden"} name={"price"} value={"19999"} />
                       <input type={"hidden"} name={"name"} value={"Web Portal Plus"} />
-                      <input type={"hidden"} name={"services"} value={"Logo Design, 12 Unique Logo Concepts, Unlimited Revisions, 100% Ownership Right, AI PSD EPS GIF BMP JPEG PNG Formats, Print Material, Stationery Design, Flyer Design, Email Signature, Comprehensive Web Portal, Dating Portal, Job Portal, Professional Network, Social Network, Media Portal, Real Estate Portal, Medical Portal, News Portal, Enterprise Portal, 100% Custom Designs, Custom Coding, Module-wise Architecture, Extensive Admin Panel, Complete Deployment, SEO, 3 Months SEO Plan, 10 Keywords, Top Ranking on Google, Social Media Design, Facebook Fanpage Splash Page, Twitter Background Design, Google+ Profile Banner, Explainer Video, 30 Sec HD Explainer Video, Storyboard VoiceOver & Animation, Discounted Price, Dedicated Account Manager, Satisfaction Guarantee, 30-days Moneyback Guarantee, Free 12-month Hosting & Domain Registration"} />
+                      <input type={"hidden"} name={"services"} value={"Logo Design, 12 Unique Logo Concepts, Unlimited Revisions, 100% Ownership Right, AI PSD EPS GIF BMP JPEG PNG Formats, Print Material, Stationery Design, Flyer Design, Email Signature, Comprehensive Web Portal, Dating Portal, Job Portal, Professional Network, Social Network, Media Portal, Real Estate Portal, Medical Portal, News Portal, Enterprise Portal, 100% Custom Designs, Custom Coding, Module-wise Architecture, Extensive Admin Panel, Complete Deployment, SEO, 3 Months SEO Plan, 10 Keywords, Improved Google Visibility, Social Media Design, Facebook Fanpage Splash Page, Twitter Background Design, Explainer Video, 30 Sec HD Explainer Video, Storyboard VoiceOver & Animation, Discounted Price, Dedicated Account Manager, Satisfaction Guarantee, 30-days Moneyback Guarantee, Free 12-month Hosting & Domain Registration"} />
                       <button type={"submit"} className={"theme-btn order"}>
                         {"Order now"}
                       </button>

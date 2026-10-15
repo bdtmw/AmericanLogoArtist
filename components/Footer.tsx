@@ -8,7 +8,7 @@ export default function Footer() {
           <div className={"col-lg-3 col-md-12"}>
             <div className={"footer-content"}>
               <Link href={"/"} className={"footer-logo"}>
-                <img src={"/assets/img/logo.webp"} alt={"American Logo Artist"} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+                <img width={276} height={88} src={"/assets/img/logo.webp"} alt={"American Logo Artist"} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
               </Link>
               <p>
                 {" At American Logo Artist, we blend digital technology seamlessly into your business strategy and concepts. "}
@@ -144,7 +144,7 @@ export default function Footer() {
         </div>
         <div className={"row align-items-center footer-bottom"}>
           <div className={"col-md-6"}>
-            <img src={"/assets/img/payment-img.webp"} alt={""} loading={"lazy"} decoding={"async"} />
+            <img width={501} height={46} src={"/assets/img/payment-img.webp"} alt={""} loading={"lazy"} decoding={"async"} />
           </div>
           <div className={"col-md-6"}>
             <div className={"terms-ftr"}>

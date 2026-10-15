@@ -11,7 +11,7 @@ export default function SectionP() {
         <div className={"row align-items-start"}>
           <div className={"col-lg-3 col-md-6"}>
             <div className={"seo-card"}>
-              <img src={"/assets/img/seo/pro-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+              <img width={206} height={206} src={"/assets/img/seo/pro-1.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
               <h3>
                 {"Keyword Analysis"}
               </h3>
@@ -22,7 +22,7 @@ export default function SectionP() {
           </div>
           <div className={"col-lg-3 col-md-6"}>
             <div className={"seo-card"}>
-              <img src={"/assets/img/seo/pro-2.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+              <img width={206} height={206} src={"/assets/img/seo/pro-2.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
               <h3>
                 {"On-Page Optimization"}
               </h3>
@@ -33,7 +33,7 @@ export default function SectionP() {
           </div>
           <div className={"col-lg-3 col-md-6"}>
             <div className={"seo-card"}>
-              <img src={"/assets/img/seo/pro-3.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+              <img width={206} height={206} src={"/assets/img/seo/pro-3.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
               <h3>
                 {"Off-Page Optimization"}
               </h3>
@@ -44,7 +44,7 @@ export default function SectionP() {
           </div>
           <div className={"col-lg-3 col-md-6"}>
             <div className={"seo-card"}>
-              <img src={"/assets/img/seo/pro-4.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+              <img width={206} height={206} src={"/assets/img/seo/pro-4.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
               <h3>
                 {"Link Building"}
               </h3>

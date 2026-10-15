@@ -21,7 +21,7 @@ export default function SectionPageIntro4() {
           </div>
           <div className={"col-md-6"}>
             <figure>
-              <img src={"/assets/img/video/intro-img.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
+              <img width={717} height={550} src={"/assets/img/video/intro-img.webp"} alt={""} className={"img-fluid"} loading={"lazy"} decoding={"async"} />
             </figure>
           </div>
         </div>
