@@ -1,0 +1,647 @@
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1210px) {
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1030px) {
+  .slick-arrow {
+    display: none !important;
+  }
+
+  .main-img--3,
+  .main-img--4 {
+    bottom: 0;
+  }
+
+  .workflow-card img {
+    width: 40%;
+  }
+
+  .package-card .intro h2 {
+    font-size: 1.8rem;
+  }
+
+  .service-content h2 {
+    font-size: 4rem;
+  }
+
+  .main-img {
+    width: 20%;
+  }
+
+  .main-content h1 {
+    font-size: 5rem;
+  }
+
+  .section--main {
+    height: 100vh;
+    padding: 0;
+    align-items: center;
+    padding-top: 8rem;
+  }
+
+  .header {
+    padding: 0.5rem 0;
+    background: #111;
+  }
+
+  .navbar-nav {
+    height: 100vh;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0;
+  }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 995px) {
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 770px) {
+  .testimonial-content p {
+    font-size: 1rem;
+  }
+
+  .testimonial-content h3 {
+    font-size: 2rem;
+  }
+
+  .slick-arrow {
+    display: none !important;
+  }
+
+  .section-intro p {
+    font-size: 1.2rem;
+  }
+
+  .section-intro h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .section-intro h4 {
+    font-size: 1.2rem;
+  }
+
+  .workflow-card img {
+    margin-bottom: 1rem;
+  }
+
+  .workflow-card {
+    margin-top: 1rem;
+  }
+
+  .workflow-row::before {
+    content: none;
+  }
+
+  .service-content .btn-group {
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 1rem;
+  }
+
+  .service-content p {
+    margin-bottom: 1rem;
+  }
+
+  .service-content h4 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .service-content h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .services-tabs .nav-link {
+    flex: 25%;
+    font-size: 0.7rem;
+  }
+
+  .services-tabs .nav-link img {
+    width: 50%;
+  }
+
+  .services-tabs .nav-link.active::before {
+    width: 30px;
+    height: 30px;
+    bottom: -15%;
+  }
+
+  .services-tabs {
+    margin-bottom: 3rem;
+  }
+
+  .portfolio-more-content p {
+    font-size: 1.2rem;
+  }
+
+  .cta-form .input-group .form-control {
+    flex: 42%;
+    margin: 0.5rem;
+  }
+
+  .cta-form button {
+    width: 100%;
+    padding: 1rem 3rem;
+    text-align: center;
+  }
+
+  .cta-form .input-group-append {
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+
+  .main-img {
+    width: 20%;
+  }
+
+  .main-img--1 {
+    top: 110px;
+    left: 80px;
+  }
+  .main-img--2 {
+    top: 110px;
+    right: 80px;
+  }
+  .main-img--3 {
+    bottom: 40px;
+    left: 80px;
+  }
+  .main-img--4 {
+    bottom: 40px;
+    right: 80px;
+  }
+
+  .section--main {
+    padding: 0;
+    height: 100vh;
+    align-items: center;
+  }
+
+  .main-content h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+
+  .main-content p {
+    font-size: 1.2rem;
+  }
+
+  .header {
+    padding: 0.5rem 0;
+    background: #111;
+  }
+
+  .navbar-nav {
+    height: 100vh;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0;
+  }
+
+  .section--cta-2 h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .branding-workflow-card img {
+    width: 50%;
+  }
+
+  .branding-workflow-card.arrow::after {
+    content: "";
+  }
+
+  .section--page-intro .btn-group {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .section--page-intro .section-intro h2 {
+    font-size: 2rem;
+  }
+
+  .section--inner-main {
+    height: 100vh;
+    padding: 0;
+    align-items: center;
+  }
+
+  .inner-main-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .inner-main-content p {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .cta-3-heading {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .section--rock .section-intro h2 {
+    font-size: 2rem;
+  }
+
+  .section--rock .section-intro p {
+    font-size: 1rem;
+  }
+
+  .section--rock .section-intro {
+    margin-bottom: 3rem;
+  }
+
+  .rock-card img {
+    width: 50%;
+  }
+
+  .rock-card h3 {
+    font-size: 1rem;
+  }
+
+  .section {
+    padding: 4rem 0;
+  }
+
+  .section--allow img {
+    display: none;
+  }
+
+  .section--page-intro .section-intro h5 {
+    font-size: 1.5rem;
+  }
+
+  .seo-card img {
+    width: 40%;
+  }
+
+  .section--contact img {
+    display: none;
+  }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 580px) {
+  body {
+    text-align: center;
+  }
+  .testimonial-content .user {
+    justify-content: center;
+  }
+
+  .stars {
+    justify-content: center;
+  }
+
+  .testimonial-content p {
+    font-size: 1rem;
+  }
+
+  .testimonial-content h3 {
+    font-size: 2rem;
+  }
+
+  .section-intro p {
+    font-size: 1rem;
+  }
+
+  .section-intro h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .section-intro h4 {
+    font-size: 1rem;
+  }
+
+  .workflow-card img {
+    margin-bottom: 1rem;
+  }
+
+  .workflow-card {
+    margin-top: 0;
+    margin-bottom: 2rem;
+  }
+
+  .workflow-row::before {
+    background: none;
+    content: none;
+  }
+
+  .package-list {
+    align-items: flex-start;
+  }
+
+  .service-content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .service-content h4 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .service-content p {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+
+  .services-tab-content img {
+    display: none;
+  }
+
+  .services-tabs .nav-link img {
+    flex: 0%;
+    width: 35%;
+  }
+
+  .services-tabs .nav-link {
+    flex: 25%;
+  }
+
+  .theme-btn {
+    font-size: 1rem;
+  }
+
+  .service-content .btn-group {
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+
+  .portfolio-more-content p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .portfolio-more-content ul {
+    margin-bottom: 1rem;
+  }
+
+  .portfolio-grid a {
+    flex: 50%;
+  }
+
+  .cta-form .input-group {
+    flex-direction: column;
+  }
+
+  .cta-form .input-group .form-control {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 1.5rem;
+  }
+
+  .cta-form button {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .main-img {
+    display: none;
+  }
+
+  .main-content p {
+    font-size: 1rem;
+  }
+
+  .main-content h1 {
+    font-size: 3rem;
+  }
+
+  .section--main {
+    height: 100vh;
+    padding: 0;
+    align-items: center;
+  }
+
+  .navbar-brand {
+    width: 65%;
+    text-align: left;
+  }
+
+  .header {
+    padding: 0.5rem 0;
+    background: #111;
+  }
+
+  .navbar-nav {
+    height: 100vh;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0;
+  }
+
+  .section {
+    padding: 3rem 0;
+  }
+
+  .section-intro {
+    margin-bottom: 3rem;
+  }
+
+  .services-tabs .nav-link.active::before {
+    width: 30px;
+    height: 30px;
+    bottom: -15%;
+  }
+
+  .services-tabs .nav-link:nth-child(even) {
+    border: none;
+  }
+
+  .section--cta-2 .btn-group {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .section--cta-2 .btn-group .theme-btn {
+    display: block;
+    width: 100%;
+  }
+
+  .section--cta-2 h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .branding-workflow-card img {
+    width: 40%;
+  }
+
+  .branding-workflow-card.arrow::after {
+    content: none;
+  }
+
+  .branding-custom-content.text-right {
+    text-align: center !important;
+  }
+
+  .section--page-intro .btn-group {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .section--page-intro .section-intro {
+    text-align: center;
+  }
+
+  .section--page-intro .section-intro h2 {
+    font-size: 2rem;
+  }
+
+  .section--inner-main {
+    height: 100vh;
+    padding: 0;
+    align-items: center;
+  }
+
+  .inner-main-content h1 {
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
+  }
+
+  .inner-main-content p {
+    font-size: 1rem;
+  }
+
+  .section--page-intro img {
+    display: none;
+  }
+
+  .video-custom-content .btn-group {
+    justify-content: center;
+  }
+
+  .video-custom-content.text-right {
+    text-align: center !important;
+  }
+
+  .video-custom-content.text-right .btn-group {
+    justify-content: center;
+  }
+
+  .portfolio-more-content .btn-group {
+    flex-direction: column;
+  }
+
+  .cta-3-heading {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .cta-3-links {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .section--rock .section-intro h2 {
+    font-size: 2rem;
+  }
+
+  .section--rock .section-intro p {
+    font-size: 1rem;
+  }
+
+  .section--rock .section-intro h4 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .section--allow .btn-group {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .section--allow .section-intro {
+    text-align: center;
+  }
+
+  .section--allow .section-intro h2 {
+    font-size: 2rem;
+  }
+
+  .section--allow img {
+    display: none;
+  }
+
+  .intro-list li::before {
+    left: 40px;
+  }
+
+  .app-tabs .nav-link {
+    flex: 20%;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+
+  .app-tabs {
+    gap: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  .app-tabs .nav-link img {
+    width: 50%;
+  }
+
+  .app-tab-intro .btn-group {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .app-tab-intro {
+    margin-bottom: 2rem;
+  }
+
+  .section--page-intro .section-intro h5 {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .section--page-intro .section-intro p {
+    margin-bottom: 1rem;
+  }
+
+  .intro-list {
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .result-card {
+    text-align: left;
+  }
+
+  .result-card h3 {
+    font-size: 2rem;
+  }
+
+  .seo-card img {
+    width: 30%;
+    margin-bottom: 1rem;
+  }
+
+  .contact-card {
+    margin-bottom: 2rem;
+  }
+}
+
+
+
+
+
+@media (max-width: 567px) {
+  .terms-ftr {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+}
