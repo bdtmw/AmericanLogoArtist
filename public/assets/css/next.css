@@ -125,7 +125,8 @@ button.nav-link, button.chat-btn { background: transparent; border: 0; }
 /* Keep intrinsic width/height attributes (CLS) without distorting images */
 :where(img) { height: auto; }
 
-.discount-note { margin: .25rem 0 0; text-align: center; font-size: .95rem; }
+.package-card .prices { align-items: flex-start; }
+.discount-note { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; margin: 0; padding-top: .35rem; text-align: right; font-size: .95rem; line-height: 1; flex-shrink: 0; }
 .discount-note del { opacity: .7; }
 .discount-badge { display: inline-block; padding: .1rem .5rem; border-radius: 999px; background: #d9480f; color: #fff; font-weight: 700; font-size: .8rem; }
 
