@@ -43,3 +43,9 @@ test('contact endpoint never reports success without email configuration', async
     assert.match(JSON.stringify(result.payload), /Email delivery is unavailable/);
   } finally { if (original !== undefined) process.env.SMTP_HOST = original; }
 });
+
+test('keeps only known, single-line attribution fields', () => {
+  const result = validateEnquiry({ ...enquiry, attribution: { utm_source: 'google', promo: 'Halloween Offer', referrer: 'a\r\nb', evil: 'x' } });
+  assert.deepEqual(result.data?.attribution, { utm_source: 'google', referrer: 'a b', promo: 'Halloween Offer' });
+  assert.deepEqual(validateEnquiry({ ...enquiry, attribution: 'nope' }).data?.attribution, {});
+});

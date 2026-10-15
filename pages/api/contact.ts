@@ -25,7 +25,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   }
   try {
     const transporter = nodemailer.createTransport({ host: process.env.SMTP_HOST, port: Number(process.env.SMTP_PORT || 587), secure: process.env.SMTP_SECURE === 'true', requireTLS: process.env.SMTP_SECURE !== 'true', auth: { user: process.env.SMTP_USER, pass: process.env.SMTP_PASS }, connectionTimeout: 10000, socketTimeout: 15000 });
-    const result = await transporter.sendMail({ from: process.env.SMTP_FROM, to: process.env.CONTACT_TO || 'info@americanlogoartist.com', replyTo: data.email, subject: `Website enquiry: ${data.subject}`, text: `Name: ${data.firstName} ${data.lastName}\nEmail: ${data.email}\nPhone: ${data.phone}\nPage: ${data.page}\nMarketing consent: ${data.consent ? 'Yes' : 'No'}\n\n${data.message}` });
+    const result = await transporter.sendMail({ from: process.env.SMTP_FROM, to: process.env.CONTACT_TO || 'info@americanlogoartist.com', replyTo: data.email, subject: `Website enquiry: ${data.subject}`, text: `Name: ${data.firstName} ${data.lastName}\nEmail: ${data.email}\nPhone: ${data.phone}\nPage: ${data.page}\nMarketing consent: ${data.consent ? 'Yes' : 'No'}${Object.entries(data.attribution).map(([key, value]) => `\n${key}: ${value}`).join('')}\n\n${data.message}` });
     if (!result.accepted.length) throw new Error('Mail recipient was not accepted');
     return res.status(200).json({ ok: true });
   } catch {

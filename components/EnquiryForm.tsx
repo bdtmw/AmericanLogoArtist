@@ -1,6 +1,7 @@
 'use client';
 
 import { useId, useState, type FormEvent } from 'react';
+import { getAttribution } from '@/lib/tracking';
 
 const staticPreview = process.env.NEXT_PUBLIC_STATIC_PREVIEW === 'true';
 
@@ -26,7 +27,7 @@ export default function EnquiryForm({ compact = false, subject = 'Website enquir
     }
     setBusy(true); setStatus(null);
     try {
-      const response = await fetch('/api/contact', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ ...payload, subject, page: location.pathname }) });
+      const response = await fetch('/api/contact', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ ...payload, subject, page: location.pathname, attribution: getAttribution() }) });
       const result = await response.json();
       if (!response.ok) throw new Error(result.error || 'Your message could not be sent. Please try again.');
       setStatus({ kind: 'success', text: 'Thank you! Your enquiry has been sent. Our team will be in touch.' });

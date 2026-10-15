@@ -4,6 +4,7 @@ import { createContext, useContext, useEffect, useRef, useState, type ReactNode,
 import { usePathname } from 'next/navigation';
 import Script from 'next/script';
 import EnquiryForm from './EnquiryForm';
+import { captureAttribution } from '@/lib/tracking';
 
 type Media = { src: string; title: string; video?: boolean };
 const Context = createContext({ enquire: (_subject?: string) => {}, view: (_media: Media) => {} });
@@ -38,6 +39,7 @@ export default function SiteProvider({ children }: { children: ReactNode }) {
   const zendesk = process.env.NEXT_PUBLIC_ZENDESK_KEY;
 
   useEffect(() => { setSubject(null); setMedia(null); }, [pathname]);
+  useEffect(() => { captureAttribution(); }, []);
   useEffect(() => {
     if (!isOpen) { dialog.current?.close(); return; }
     const opener = document.activeElement as HTMLElement | null;

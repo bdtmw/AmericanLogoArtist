@@ -162,3 +162,13 @@ button.nav-link, button.chat-btn { background: transparent; border: 0; }
 .section--packages .package-card { border-top: 4px solid #ff7518; }
 @media (max-width: 575px) { .hw-unit { min-width: 64px; padding: 8px; } .hw-unit strong { font-size: 1.5rem; } .hw-deal { min-width: 100%; } }
 .discount-badge { white-space: nowrap; }
+
+/* Announcement bar: in flow at the top; the fixed header sits just below it until the page scrolls */
+.header { top: var(--promo-offset, 0px); }
+.promo-bar { position: relative; z-index: 1000; display: flex; align-items: center; justify-content: center; gap: 12px; padding: 8px 40px 8px 16px; background: #ff7518; color: #1a0a2e; text-align: center; font-size: .95rem; }
+.promo-bar p { margin: 0; }
+.promo-bar a { color: #1a0a2e; font-weight: 700; text-decoration: underline; margin-left: 6px; }
+.promo-bar button { position: absolute; right: 8px; top: 50%; transform: translateY(-50%); width: 32px; height: 32px; border: 0; border-radius: 50%; background: transparent; color: #1a0a2e; font-size: 1.4rem; line-height: 1; cursor: pointer; }
+.promo-bar button:hover { background: rgba(26, 10, 46, .15); }
+.promo-bar a:focus-visible, .promo-bar button:focus-visible { outline: 3px solid #1a0a2e; outline-offset: 2px; }
+@media (max-width: 575px) { .promo-bar { font-size: .85rem; } .promo-end { display: none; } }

@@ -1,13 +1,25 @@
 export type Enquiry = {
   firstName: string; lastName: string; email: string; phone: string; message: string;
   subject: string; page: string; consent: boolean; website: string;
+  attribution: Record<string, string>;
 };
+
+const attributionKeys = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content', 'referrer', 'landing_page', 'promo'];
+function cleanAttribution(input: unknown): Record<string, string> {
+  const out: Record<string, string> = {};
+  if (!input || typeof input !== 'object' || Array.isArray(input)) return out;
+  for (const key of attributionKeys) {
+    const value = (input as Record<string, unknown>)[key];
+    if (typeof value === 'string' && value.trim()) out[key] = value.replace(/[\r\n]+/g, ' ').trim().slice(0, 200);
+  }
+  return out;
+}
 
 export function validateEnquiry(input: unknown): { data?: Enquiry; error?: string } {
   if (!input || typeof input !== 'object' || Array.isArray(input)) return { error: 'Invalid enquiry.' };
   const body = input as Record<string, unknown>;
   const field = (name: string) => typeof body[name] === 'string' ? body[name].trim() : '';
-  const data: Enquiry = { firstName: field('firstName'), lastName: field('lastName'), email: field('email'), phone: field('phone'), message: field('message'), subject: field('subject') || 'Website enquiry', page: field('page'), consent: body.consent === 'yes', website: field('website') };
+  const data: Enquiry = { firstName: field('firstName'), lastName: field('lastName'), email: field('email'), phone: field('phone'), message: field('message'), subject: field('subject') || 'Website enquiry', page: field('page'), consent: body.consent === 'yes', website: field('website'), attribution: cleanAttribution(body.attribution) };
   if (data.website) return { error: 'Unable to accept this enquiry.' };
   if (!data.firstName || !data.lastName || !data.email || !data.phone || !data.message) return { error: 'Please complete all required fields.' };
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(data.email) || data.email.length > 254) return { error: 'Please enter a valid email address.' };

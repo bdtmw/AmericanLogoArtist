@@ -3,6 +3,7 @@ import Script from 'next/script';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import SiteProvider from '@/components/SiteProvider';
+import PromoBar from '@/components/PromoBar';
 import { organizationSchema } from '@/lib/seo';
 
 const preview = process.env.NEXT_PUBLIC_STATIC_PREVIEW === 'true';
@@ -34,7 +35,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
   </head><body className="page-loaded">
     <a className="skip-link" href="#main-content">Skip to content</a>
-    <SiteProvider><Header /><main id="main-content">{children}</main><Footer /></SiteProvider>
+    <SiteProvider><PromoBar /><Header /><main id="main-content">{children}</main><Footer /></SiteProvider>
     {ga && <><Script src={`https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(ga)}`} strategy="lazyOnload" /><Script id="google-analytics" strategy="lazyOnload">{`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config',${JSON.stringify(ga)});`}</Script></>}
   </body></html>;
 }
