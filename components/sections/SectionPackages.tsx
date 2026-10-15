@@ -51,7 +51,7 @@ export default function SectionPackages() {
                   <div className={"intro"}>
                     <div className={"prices"}>
                       <h2 style={{"fontSize": "2.5rem"}}>
-                        {"$23.20"}
+                        {"$23"}
                       </h2>
                       <p className={"discount-note"}><del>{"$29"}</del>{" "}<span className={"discount-badge"}>{"20% OFF"}</span></p>
                     </div>
@@ -106,7 +106,7 @@ export default function SectionPackages() {
                   </div>
                   <div>
                     <form action={"https://www.americanlogoartist.com/order/order-now.php"} method={"POST"}>
-                      <input type={"hidden"} name={"price"} value={"23.20"} />
+                      <input type={"hidden"} name={"price"} value={"23"} />
                       <input type={"hidden"} name={"original_price"} value={"29"} />
                       <input type={"hidden"} name={"discount"} value={"20%"} />
                       <input type={"hidden"} name={"name"} value={"Logo Basic"} />
@@ -123,7 +123,7 @@ export default function SectionPackages() {
                   <div className={"intro"}>
                     <div className={"prices"}>
                       <h2 style={{"fontSize": "2.5rem"}}>
-                        {"$71.20"}
+                        {"$71"}
                       </h2>
                       <p className={"discount-note"}><del>{"$89"}</del>{" "}<span className={"discount-badge"}>{"20% OFF"}</span></p>
                     </div>
@@ -172,7 +172,7 @@ export default function SectionPackages() {
                   </div>
                   <div>
                     <form action={"https://www.americanlogoartist.com/order/order-now.php"} method={"POST"}>
-                      <input type={"hidden"} name={"price"} value={"71.20"} />
+                      <input type={"hidden"} name={"price"} value={"71"} />
                       <input type={"hidden"} name={"original_price"} value={"89"} />
                       <input type={"hidden"} name={"discount"} value={"20%"} />
                       <input type={"hidden"} name={"name"} value={"Logo Silver"} />
@@ -189,7 +189,7 @@ export default function SectionPackages() {
                   <div className={"intro"}>
                     <div className={"prices"}>
                       <h2 style={{"fontSize": "2.5rem"}}>
-                        {"$103.20"}
+                        {"$103"}
                       </h2>
                       <p className={"discount-note"}><del>{"$129"}</del>{" "}<span className={"discount-badge"}>{"20% OFF"}</span></p>
                     </div>
@@ -241,7 +241,7 @@ export default function SectionPackages() {
                   </div>
                   <div>
                     <form action={"https://www.americanlogoartist.com/order/order-now.php"} method={"POST"}>
-                      <input type={"hidden"} name={"price"} value={"103.20"} />
+                      <input type={"hidden"} name={"price"} value={"103"} />
                       <input type={"hidden"} name={"original_price"} value={"129"} />
                       <input type={"hidden"} name={"discount"} value={"20%"} />
                       <input type={"hidden"} name={"name"} value={"Logo Gold"} />
@@ -258,7 +258,7 @@ export default function SectionPackages() {
                   <div className={"intro"}>
                     <div className={"prices"}>
                       <h2 style={{"fontSize": "2.5rem"}}>
-                        {"$143.20"}
+                        {"$143"}
                       </h2>
                       <p className={"discount-note"}><del>{"$179"}</del>{" "}<span className={"discount-badge"}>{"20% OFF"}</span></p>
                     </div>
@@ -316,7 +316,7 @@ export default function SectionPackages() {
                   </div>
                   <div>
                     <form action={"https://www.americanlogoartist.com/order/order-now.php"} method={"POST"}>
-                      <input type={"hidden"} name={"price"} value={"143.20"} />
+                      <input type={"hidden"} name={"price"} value={"143"} />
                       <input type={"hidden"} name={"original_price"} value={"179"} />
                       <input type={"hidden"} name={"discount"} value={"20%"} />
                       <input type={"hidden"} name={"name"} value={"Logo Platinum"} />
@@ -333,7 +333,7 @@ export default function SectionPackages() {
                   <div className={"intro"}>
                     <div className={"prices"}>
                       <h2 style={{"fontSize": "2.5rem"}}>
-                        {"$239.20"}
+                        {"$239"}
                       </h2>
                       <p className={"discount-note"}><del>{"$299"}</del>{" "}<span className={"discount-badge"}>{"20% OFF"}</span></p>
                     </div>
@@ -391,7 +391,7 @@ export default function SectionPackages() {
                   </div>
                   <div>
                     <form action={"https://www.americanlogoartist.com/order/order-now.php"} method={"POST"}>
-                      <input type={"hidden"} name={"price"} value={"239.20"} />
+                      <input type={"hidden"} name={"price"} value={"239"} />
                       <input type={"hidden"} name={"original_price"} value={"299"} />
                       <input type={"hidden"} name={"discount"} value={"20%"} />
                       <input type={"hidden"} name={"name"} value={"Logo Elite Package"} />
@@ -493,7 +493,7 @@ export default function SectionPackages() {
                   <div className={"intro"}>
                     <div className={"prices"}>
                       <h2 style={{"fontSize": "2.5rem"}}>
-                        {"$319.20"}
+                        {"$319"}
                       </h2>
                       <p className={"discount-note"}><del>{"$399"}</del>{" "}<span className={"discount-badge"}>{"20% OFF"}</span></p>
                     </div>
@@ -569,7 +569,7 @@ export default function SectionPackages() {
                   </div>
                   <div>
                     <form action={"https://www.americanlogoartist.com/order/order-now.php"} method={"POST"}>
-                      <input type={"hidden"} name={"price"} value={"319.20"} />
+                      <input type={"hidden"} name={"price"} value={"319"} />
                       <input type={"hidden"} name={"original_price"} value={"399"} />
                       <input type={"hidden"} name={"discount"} value={"20%"} />
                       <input type={"hidden"} name={"name"} value={"Basic Website"} />
@@ -1379,7 +1379,7 @@ export default function SectionPackages() {
                   <div className={"intro"}>
                     <div className={"prices"}>
                       <h2 style={{"fontSize": "2.5rem"}}>
-                        {"$239.20"}
+                        {"$239"}
                       </h2>
                       <p className={"discount-note"}><del>{"$299"}</del>{" "}<span className={"discount-badge"}>{"20% OFF"}</span></p>
                     </div>
@@ -1420,7 +1420,7 @@ export default function SectionPackages() {
                   </div>
                   <div>
                     <form action={"https://www.americanlogoartist.com/order/order-now.php"} method={"POST"}>
-                      <input type={"hidden"} name={"price"} value={"239.20"} />
+                      <input type={"hidden"} name={"price"} value={"239"} />
                       <input type={"hidden"} name={"original_price"} value={"299"} />
                       <input type={"hidden"} name={"discount"} value={"20%"} />
                       <input type={"hidden"} name={"name"} value={"Basic SEO"} />
@@ -1995,7 +1995,7 @@ export default function SectionPackages() {
                   <div className={"intro"}>
                     <div className={"prices"}>
                       <h2 style={{"fontSize": "2.5rem"}}>
-                        {"$199.20"}
+                        {"$199"}
                       </h2>
                       <p className={"discount-note"}><del>{"$249"}</del>{" "}<span className={"discount-badge"}>{"20% OFF"}</span></p>
                     </div>
@@ -2044,7 +2044,7 @@ export default function SectionPackages() {
                   </div>
                   <div>
                     <form action={"https://www.americanlogoartist.com/order/order-now.php"} method={"POST"}>
-                      <input type={"hidden"} name={"price"} value={"199.20"} />
+                      <input type={"hidden"} name={"price"} value={"199"} />
                       <input type={"hidden"} name={"original_price"} value={"249"} />
                       <input type={"hidden"} name={"discount"} value={"20%"} />
                       <input type={"hidden"} name={"name"} value={"Basic Printing"} />

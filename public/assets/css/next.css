@@ -127,7 +127,7 @@ button.nav-link, button.chat-btn { background: transparent; border: 0; }
 
 .discount-note { margin: .25rem 0 0; text-align: center; font-size: .95rem; }
 .discount-note del { opacity: .7; }
-.discount-badge { display: inline-block; padding: .1rem .5rem; border-radius: 999px; background: #ff7518; color: #1a0a2e; font-weight: 700; font-size: .8rem; }
+.discount-badge { display: inline-block; padding: .1rem .5rem; border-radius: 999px; background: #d9480f; color: #fff; font-weight: 700; font-size: .8rem; }
 
 /* Halloween offer */
 .section--halloween { background: radial-gradient(circle at 20% 0%, #4b1d7a 0%, #1a0a2e 60%); color: #fff; padding: 80px 0; text-align: center; }
@@ -136,7 +136,7 @@ button.nav-link, button.chat-btn { background: transparent; border: 0; }
 .section--halloween h2 { color: #fff; font-size: clamp(28px, 5vw, 46px); line-height: 1.15; margin-bottom: 16px; }
 .hw-sub { font-size: 1.15rem; opacity: .92; }
 .hw-deals { display: flex; justify-content: center; align-items: center; gap: 20px; flex-wrap: wrap; margin: 28px 0 8px; }
-.hw-deal { background: #ff7518; color: #1a0a2e; border-radius: 16px; padding: 18px 32px; min-width: 240px; box-shadow: 0 8px 28px rgba(255, 117, 24, .35); }
+.hw-deal { background: #d9480f; color: #fff; border-radius: 16px; padding: 18px 32px; min-width: 240px; box-shadow: 0 8px 28px rgba(217, 72, 15, .4); }
 .hw-deal strong { display: block; font-size: 2.4rem; line-height: 1.1; }
 .hw-deal span { font-weight: 600; }
 .hw-plus { font-size: 1.2rem; text-transform: uppercase; opacity: .8; }
@@ -155,7 +155,7 @@ button.nav-link, button.chat-btn { background: transparent; border: 0; }
 .hw-guarantee { border: 2px dashed #ff7518; }
 .hw-guarantee p { margin: 0; }
 .hw-actions { display: flex; justify-content: center; gap: 14px; flex-wrap: wrap; margin: 28px 0 18px; }
-.hw-cta { background: #ff7518; color: #1a0a2e; border: 2px solid #ff7518; }
+.hw-cta { background: #d9480f; color: #fff; border: 2px solid #d9480f; }
 .hw-cta--ghost { background: transparent; color: #fff; }
 .hw-ps { max-width: 700px; margin: 0 auto; font-size: .95rem; opacity: .85; }
 .section--halloween a:focus-visible, .section--halloween button:focus-visible { outline: 3px solid #fff; outline-offset: 3px; }
@@ -165,10 +165,10 @@ button.nav-link, button.chat-btn { background: transparent; border: 0; }
 
 /* Announcement bar: in flow at the top; the fixed header sits just below it until the page scrolls */
 .header { top: var(--promo-offset, 0px); }
-.promo-bar { position: relative; z-index: 1000; display: flex; align-items: center; justify-content: center; gap: 12px; padding: 8px 40px 8px 16px; background: #ff7518; color: #1a0a2e; text-align: center; font-size: .95rem; }
+.promo-bar { position: relative; z-index: 1000; display: flex; align-items: center; justify-content: center; gap: 12px; padding: 8px 40px 8px 16px; background: #d9480f; color: #fff; text-align: center; font-size: .95rem; }
 .promo-bar p { margin: 0; }
-.promo-bar a { color: #1a0a2e; font-weight: 700; text-decoration: underline; margin-left: 6px; }
-.promo-bar button { position: absolute; right: 8px; top: 50%; transform: translateY(-50%); width: 32px; height: 32px; border: 0; border-radius: 50%; background: transparent; color: #1a0a2e; font-size: 1.4rem; line-height: 1; cursor: pointer; }
-.promo-bar button:hover { background: rgba(26, 10, 46, .15); }
-.promo-bar a:focus-visible, .promo-bar button:focus-visible { outline: 3px solid #1a0a2e; outline-offset: 2px; }
+.promo-bar a { color: #fff; font-weight: 700; text-decoration: underline; margin-left: 6px; }
+.promo-bar button { position: absolute; right: 8px; top: 50%; transform: translateY(-50%); width: 32px; height: 32px; border: 0; border-radius: 50%; background: transparent; color: #fff; font-size: 1.4rem; line-height: 1; cursor: pointer; }
+.promo-bar button:hover { background: rgba(255, 255, 255, .2); }
+.promo-bar a:focus-visible, .promo-bar button:focus-visible { outline: 3px solid #fff; outline-offset: 2px; }
 @media (max-width: 575px) { .promo-bar { font-size: .85rem; } .promo-end { display: none; } }
