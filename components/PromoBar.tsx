@@ -24,7 +24,7 @@ export default function PromoBar() {
   }, [visible]);
   if (!visible) return null;
   return <div className="promo-bar" ref={bar} role="region" aria-label="Halloween offer">
-    <p><span aria-hidden="true">🎃</span> <strong>Halloween Sale:</strong> save up to {promo.tiers.percent}% on every package, or ${promo.tiers.flat} off ${promo.tiers.flatFrom}+ orders <span className="promo-end">· ends Oct 31</span> <Link href="/pricing">See prices</Link></p>
+    <p><span aria-hidden="true">🎃</span> <strong>Halloween Sale:</strong> up to {promo.tiers.bigPercent}% off · {promo.tiers.percent}% off packages under ${promo.tiers.bigFrom}, {promo.tiers.bigPercent}% off ${promo.tiers.bigFrom}+ <span className="promo-end">· ends Oct 31</span> <Link href="/pricing">See prices</Link></p>
     <button type="button" aria-label="Dismiss announcement" onClick={() => { try { sessionStorage.setItem(dismissKey, '1'); } catch { /* ignore */ } setVisible(false); }}>×</button>
   </div>;
 }

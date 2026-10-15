@@ -2,5 +2,5 @@
 export const promo = {
   name: 'Halloween Offer',
   endsAt: '2026-11-01T03:59:59Z',
-  tiers: { percent: 20, flat: 50, flatFrom: 400 },
+  tiers: { percent: 20, bigPercent: 50, bigFrom: 400 },
 };

@@ -20,7 +20,7 @@ export default function SectionHalloween() {
         <div className="hw-deals">
           <div className="hw-deal"><strong>20% OFF</strong><span>every package under $400</span></div>
           <div className="hw-plus" aria-hidden="true">or</div>
-          <div className="hw-deal"><strong>$50 OFF</strong><span>every package of $400 or more</span></div>
+          <div className="hw-deal"><strong>50% OFF</strong><span>every package of $400 or more</span></div>
         </div>
         <p className="hw-small">Discount applied automatically at checkout. No code needed.</p>
         <Countdown />
